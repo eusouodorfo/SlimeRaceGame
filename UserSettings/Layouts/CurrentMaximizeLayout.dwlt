@@ -187,8 +187,8 @@ MonoBehaviour:
     y: 0
     width: 259
     height: 381
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 6}
   m_Panes:
   - {fileID: 6}
@@ -226,23 +226,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 98d5ffff
-      m_LastClickedID: -10856
-      m_ExpandedIDs: 18fbffff
+      m_SelectedIDs: c28affff
+      m_LastClickedID: -30014
+      m_ExpandedIDs: c28affff18fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: StartingLights
-        m_OriginalName: StartingLights
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: -1628
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 5}
       m_SearchString: 
@@ -271,8 +271,8 @@ MonoBehaviour:
     y: 0
     width: 784
     height: 381
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 2}
   m_Panes:
   - {fileID: 8}
@@ -538,9 +538,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 93.01202, y: -43.758232, z: -31.754478}
+    m_Target: {x: 960, y: 540, z: 0}
     speed: 2
-    m_Value: {x: 93.01202, y: -43.758232, z: -31.754478}
+    m_Value: {x: 960, y: 540, z: 0}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -587,13 +587,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.11902372, y: -0.8393799, z: 0.20407532, w: -0.4895444}
+    m_Target: {x: -0.044538006, y: 0.873759, z: -0.08149099, w: -0.47745022}
     speed: 2
-    m_Value: {x: -0.11902218, y: -0.8393691, z: 0.2040727, w: -0.4895381}
+    m_Value: {x: -0.04453716, y: 0.8737424, z: -0.08148945, w: -0.47744116}
   m_Size:
-    m_Target: 111.55578
+    m_Target: 1101.4536
     speed: 2
-    m_Value: 111.55578
+    m_Value: 1101.4536
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -687,22 +687,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Standard Assets/Vehicles/Car/Scripts
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 56
   m_LastFolders:
-  - Assets
+  - Assets/Standard Assets/Vehicles/Car/Scripts
   m_LastFoldersGridSize: 56
   m_LastProjectPath: D:\GitHub\RaceGameHDRP\RaceGameHDRP
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 31}
-    m_SelectedIDs: fc7a0000
-    m_LastClickedID: 31484
-    m_ExpandedIDs: 00000000fc7a0000fe7a0000007b0000027b0000067b0000087b00000a7b0000107b00004a7b0000
+    scrollPos: {x: 0, y: 289}
+    m_SelectedIDs: 20990000
+    m_LastClickedID: 39200
+    m_ExpandedIDs: 00000000fc7a0000fe7a0000027b0000067b0000087b00000a7b0000107b0000447b00004a7b00001887000012990000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -730,7 +730,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000fc7a0000fe7a0000007b0000027b0000047b0000067b0000087b00000a7b0000
+    m_ExpandedIDs: 00000000fc7a0000fe7a0000027b0000087b00000a7b0000107b00004a7b000018870000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -755,8 +755,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 98d5ffff
-    m_LastClickedInstanceID: -10856
+    m_SelectedInstanceIDs: c28affff
+    m_LastClickedInstanceID: -30014
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c623000000000000
     m_RenameOverlay:
@@ -834,8 +834,8 @@ MonoBehaviour:
     y: 0
     width: 323
     height: 645
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
