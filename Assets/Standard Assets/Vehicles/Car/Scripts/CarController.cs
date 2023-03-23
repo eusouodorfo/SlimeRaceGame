@@ -284,15 +284,19 @@ namespace UnityStandardAssets.Vehicles.Car
                 m_WheelColliders[i].GetGroundHit(out wheelHit);
 
                 //is collision with certain terrain
-                if(wheelHit.collider.CompareTag("Road")){
-                    Debug.Log("On the road");
-                    SaveScript.OnTheRoad = true;
-                    SaveScript.OnTheTerrain = false;
+                if(SaveScript.OnTheTerrain == true){
+                    if(wheelHit.collider.CompareTag("Road")){
+                        Debug.Log("On the road");
+                        SaveScript.OnTheRoad = true;
+                        SaveScript.OnTheTerrain = false;
+                    }
                 }
-                if(wheelHit.collider.CompareTag("Terrain")){
-                    Debug.Log("On the terrain");
-                    SaveScript.OnTheRoad = false;
-                    SaveScript.OnTheTerrain = true;
+                if(SaveScript.OnTheRoad == true){
+                    if(wheelHit.collider.CompareTag("Terrain")){
+                        Debug.Log("On the terrain");
+                        SaveScript.OnTheRoad = false;
+                        SaveScript.OnTheTerrain = true;
+                    }
                 }
 
                 // is the tire slipping above the given threshhold
