@@ -14,6 +14,7 @@ public class Lap : MonoBehaviour
             if(SaveScript.LapNumber == 2){
                 SaveScript.BestLapTimeM = SaveScript.LastLapM;
                 SaveScript.BestLapTimeS = SaveScript.LastLapS;
+                SaveScript.NewRecord = true;
             }
 
             SaveScript.CheckPointPass1 = false;

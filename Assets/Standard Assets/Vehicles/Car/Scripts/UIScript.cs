@@ -17,7 +17,10 @@ public class UIScript : MonoBehaviour
     public Text BestLapTimeMinutes;
     public Text BestLapTimeSeconds;
     public Text CheckPointTime;
+
     public GameObject CheckPointDisplay;
+    public GameObject NewLapRecord;
+
     private float DisplaySpeed;
     public int TotalLaps = 3;
  
@@ -30,6 +33,7 @@ public class UIScript : MonoBehaviour
         LapNumberText.text = "0";
         TotalLapsText.text = "/" + TotalLaps.ToString();
         CheckPointDisplay.SetActive(false);
+        NewLapRecord.SetActive(false);
     }
 
    
@@ -74,16 +78,21 @@ public class UIScript : MonoBehaviour
         }
 
         //volta rapida
-        if(SaveScript.LastLapM == SaveScript.BestLapTimeM){
+        if(SaveScript.LapChange == true){
+            if(SaveScript.LastLapM == SaveScript.BestLapTimeM){
             if(SaveScript.LastLapS < SaveScript.BestLapTimeS){
                 SaveScript.BestLapTimeS = SaveScript.LastLapS;
+                SaveScript.NewRecord = true;
             }
         }
 
          if(SaveScript.LastLapM < SaveScript.BestLapTimeM){
             SaveScript.BestLapTimeM = SaveScript.LastLapM;
-            SaveScript.BestLapTimeS = SaveScript.LastLapS;           
+            SaveScript.BestLapTimeS = SaveScript.LastLapS; 
+            SaveScript.NewRecord = true;          
         }
+        }
+        
 
         //exibindo melhor volta rapida
         if (SaveScript.BestLapTimeM <= 9){
@@ -98,26 +107,33 @@ public class UIScript : MonoBehaviour
         else if(SaveScript.BestLapTimeS >= 10){
             BestLapTimeSeconds.text = (Mathf.Round(SaveScript.BestLapTimeS).ToString());
         }
+        if(SaveScript.NewRecord == true){
+            NewLapRecord.SetActive(true);
+            StartCoroutine(LapRecordOff());
+        }
 
 
         //Checkpoint 1
         if(SaveScript.CheckPointPass1 == true){
             
             SaveScript.CheckPointPass1 = false;
-            CheckPointDisplay.SetActive(true);
 
-            //parcial negativa
-            if(SaveScript.ThisCheckPoint1 > SaveScript.LastCheckPoint1){
-                CheckPointTime.color = Color.red;
-                CheckPointTime.text = "-" + (SaveScript.ThisCheckPoint1 - SaveScript.LastCheckPoint1).ToString();
-                StartCoroutine(CheckPointOff());
-            }
+            if(SaveScript.LapNumber > 1){
+                CheckPointDisplay.SetActive(true);
 
-            //parcial positiva
-            if(SaveScript.ThisCheckPoint1 < SaveScript.LastCheckPoint1){
-                CheckPointTime.color = Color.green;
-                CheckPointTime.text = "+" + (SaveScript.LastCheckPoint1 - SaveScript.ThisCheckPoint1).ToString();
-                StartCoroutine(CheckPointOff());
+                //parcial negativa
+                if(SaveScript.ThisCheckPoint1 > SaveScript.LastCheckPoint1){
+                    CheckPointTime.color = Color.red;
+                    CheckPointTime.text = "-" + (SaveScript.ThisCheckPoint1 - SaveScript.LastCheckPoint1).ToString();
+                    StartCoroutine(CheckPointOff());
+                }
+
+                //parcial positiva
+                if(SaveScript.ThisCheckPoint1 < SaveScript.LastCheckPoint1){
+                    CheckPointTime.color = Color.green;
+                    CheckPointTime.text = "+" + (SaveScript.LastCheckPoint1 - SaveScript.ThisCheckPoint1).ToString();
+                    StartCoroutine(CheckPointOff());
+                }
             }
         }
 
@@ -125,41 +141,49 @@ public class UIScript : MonoBehaviour
         if(SaveScript.CheckPointPass2 == true){
             
             SaveScript.CheckPointPass2 = false;
-            CheckPointDisplay.SetActive(true);
 
-            //parcial negativa
-            if(SaveScript.ThisCheckPoint2 > SaveScript.LastCheckPoint2){
-                CheckPointTime.color = Color.red;
-                CheckPointTime.text = "-" + (SaveScript.ThisCheckPoint2 - SaveScript.LastCheckPoint2).ToString();
-                StartCoroutine(CheckPointOff());
-            }
+            if(SaveScript.LapNumber > 1){
 
-            //parcial positiva
-            if(SaveScript.ThisCheckPoint2 < SaveScript.LastCheckPoint2){
-                CheckPointTime.color = Color.green;
-                CheckPointTime.text = "+" + (SaveScript.LastCheckPoint2 - SaveScript.ThisCheckPoint2).ToString();
-                StartCoroutine(CheckPointOff());
-            }
+                CheckPointDisplay.SetActive(true);
+
+                //parcial negativa
+                if(SaveScript.ThisCheckPoint2 > SaveScript.LastCheckPoint2){
+                    CheckPointTime.color = Color.red;
+                    CheckPointTime.text = "-" + (SaveScript.ThisCheckPoint2 - SaveScript.LastCheckPoint2).ToString();
+                    StartCoroutine(CheckPointOff());
+                }
+
+                //parcial positiva
+                if(SaveScript.ThisCheckPoint2 < SaveScript.LastCheckPoint2){
+                    CheckPointTime.color = Color.green;
+                    CheckPointTime.text = "+" + (SaveScript.LastCheckPoint2 - SaveScript.ThisCheckPoint2).ToString();
+                    StartCoroutine(CheckPointOff());
+                }
+            } 
         }
 
         //Checkpoint 3
         if(SaveScript.CheckPointPass3 == true){
             
             SaveScript.CheckPointPass3 = false;
-            CheckPointDisplay.SetActive(true);
 
-            //parcial negativa
-            if(SaveScript.ThisCheckPoint3 > SaveScript.LastCheckPoint3){
-                CheckPointTime.color = Color.red;
-                CheckPointTime.text = "-" + (SaveScript.ThisCheckPoint3 - SaveScript.LastCheckPoint3).ToString();
-                StartCoroutine(CheckPointOff());
-            }
+                if(SaveScript.LapNumber > 1){
 
-            //parcial positiva
-            if(SaveScript.ThisCheckPoint3 < SaveScript.LastCheckPoint3){
-                CheckPointTime.color = Color.green;
-                CheckPointTime.text = "+" + (SaveScript.LastCheckPoint3 - SaveScript.ThisCheckPoint3).ToString();
-                StartCoroutine(CheckPointOff());
+                CheckPointDisplay.SetActive(true);
+
+                //parcial negativa
+                if(SaveScript.ThisCheckPoint3 > SaveScript.LastCheckPoint3){
+                    CheckPointTime.color = Color.red;
+                    CheckPointTime.text = "-" + (SaveScript.ThisCheckPoint3 - SaveScript.LastCheckPoint3).ToString();
+                    StartCoroutine(CheckPointOff());
+                }
+
+                //parcial positiva
+                if(SaveScript.ThisCheckPoint3 < SaveScript.LastCheckPoint3){
+                    CheckPointTime.color = Color.green;
+                    CheckPointTime.text = "+" + (SaveScript.LastCheckPoint3 - SaveScript.ThisCheckPoint3).ToString();
+                    StartCoroutine(CheckPointOff());
+                }
             }
         }
     }
@@ -167,5 +191,11 @@ public class UIScript : MonoBehaviour
     IEnumerator CheckPointOff(){
         yield return new WaitForSeconds(2);
         CheckPointDisplay.SetActive(false);
+    }
+
+    IEnumerator LapRecordOff(){
+        yield return new WaitForSeconds(2);
+        SaveScript.NewRecord = false;
+        NewLapRecord.SetActive(false);
     }
 }
