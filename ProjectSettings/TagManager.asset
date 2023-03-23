@@ -9,6 +9,7 @@ TagManager:
   - Grass
   - RumbleStrip
   - Terrain
+  - Barrier
   layers:
   - Default
   - TransparentFX
