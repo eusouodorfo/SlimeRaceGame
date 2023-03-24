@@ -33,6 +33,7 @@ public class SaveScript : MonoBehaviour
     public static bool OnTheTerrain = false;
     public static bool Rumble1 = false;
     public static bool Rumble2 = false;
+    public static bool WrongWay = false;
    
     void Start()
     {
