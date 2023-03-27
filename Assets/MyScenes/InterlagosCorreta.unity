@@ -2005,6 +2005,7 @@ MonoBehaviour:
   BestLapTimeMinutes: {fileID: 1314243152}
   BestLapTimeSeconds: {fileID: 508480698}
   CheckPointTime: {fileID: 25726842}
+  WrongWayT: {fileID: 883469875}
   CheckPointDisplay: {fileID: 25726840}
   NewLapRecord: {fileID: 875488410}
   WrongWayText: {fileID: 883469873}
@@ -16935,7 +16936,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Wrong Way!
+  m_Text: 
 --- !u!222 &883469876
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -18530,7 +18531,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1045588141}
-  m_LocalRotation: {x: 0.13653882, y: 0.615243, z: -0.109282166, w: 0.7686941}
+  m_LocalRotation: {x: 0.13653885, y: 0.615243, z: -0.10928219, w: 0.7686941}
   m_LocalPosition: {x: 150.16396, y: 1.58, z: -139.37761}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -20121,7 +20122,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1138092861}
-  m_LocalRotation: {x: 0.13653882, y: 0.615243, z: -0.109282166, w: 0.7686941}
+  m_LocalRotation: {x: 0.13653885, y: 0.615243, z: -0.10928219, w: 0.7686941}
   m_LocalPosition: {x: 150.16396, y: 1.58, z: -139.37761}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -20435,6 +20436,7 @@ GameObject:
   - component: {fileID: 1154756213}
   - component: {fileID: 1154756214}
   - component: {fileID: 1154756215}
+  - component: {fileID: 1154756216}
   m_Layer: 0
   m_Name: ProgressWaypoint (13)
   m_TagString: Untagged
@@ -20486,6 +20488,18 @@ MonoBehaviour:
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
+--- !u!114 &1154756216
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1154756212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4b9ba220591dda4980ea9e4ee9fe971, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1166709354
 GameObject:
   m_ObjectHideFlags: 0

@@ -17,6 +17,7 @@ public class UIScript : MonoBehaviour
     public Text BestLapTimeMinutes;
     public Text BestLapTimeSeconds;
     public Text CheckPointTime;
+    public Text WrongWayT;
 
     public GameObject CheckPointDisplay;
     public GameObject NewLapRecord;
@@ -195,6 +196,14 @@ public class UIScript : MonoBehaviour
         }
         if(SaveScript.WrongWay == false){
             WrongWayText.SetActive(false);
+        }
+
+        //resetando a mensagem de contra-mao
+        if(SaveScript.WWTextReset == false){
+            WrongWayT.text = "Wrong Way!";
+        }
+        if(SaveScript.WWTextReset == true){
+            WrongWayT.text = " ";
         }
     }
 
