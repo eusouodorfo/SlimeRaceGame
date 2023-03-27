@@ -7,6 +7,8 @@ public class ProgressTracker : MonoBehaviour
       private AudioSource Player;
       private bool IsPlaying = false;
       public int CurrentWP = 0;
+      public int ThisWPNumber;
+      public int LastWPNumber;
 
     void Start(){
         Player = GetComponent<AudioSource>();
@@ -29,5 +31,25 @@ public class ProgressTracker : MonoBehaviour
                 IsPlaying = false;
             }
         }
+    }
+
+    private void Update(){
+        if(CurrentWP > LastWPNumber){
+            StartCoroutine(CheckDirection());
+        }
+        if(LastWPNumber > ThisWPNumber){
+            Debug.Log("Right Way"); 
+            SaveScript.WrongWay = false;
+        }
+        if(LastWPNumber < ThisWPNumber){
+            Debug.Log("Wrong Way");
+            SaveScript.WrongWay = true;
+        }
+
+    }
+
+    IEnumerator CheckDirection(){
+        yield return new WaitForSeconds(0.5f);
+        ThisWPNumber = LastWPNumber;
     }
 }

@@ -462,9 +462,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 0
   wpNumFromParentTEST: 0
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1001 &30037551
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -588,9 +589,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 0
   wpNumFromParentTEST: 0
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1001 &36457605
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -850,9 +852,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 0
   wpNumFromParentTEST: 0
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!4 &62522577 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4040137310881316, guid: 6f1c4a61df85dcd47821dc9497adb1e6,
@@ -1015,7 +1018,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 77812939}
   m_LocalRotation: {x: -0, y: -0.10729605, z: -0, w: 0.9942272}
-  m_LocalPosition: {x: 51.100006, y: -1.1199999, z: 9.599998}
+  m_LocalPosition: {x: 86.6, y: -1.1199999, z: 17.4}
   m_LocalScale: {x: 0.01, y: 9.736651, z: 40.021786}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1047,9 +1050,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 0
   wpNumFromParentTEST: 0
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1 &83006007 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1789532079021682384, guid: d872b60aa6b43284b8356b16ee4d9b84,
@@ -1380,9 +1384,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 0
   wpNumFromParentTEST: 0
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!4 &98592473 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4040137310881316, guid: 6f1c4a61df85dcd47821dc9497adb1e6,
@@ -2002,6 +2007,7 @@ MonoBehaviour:
   CheckPointTime: {fileID: 25726842}
   CheckPointDisplay: {fileID: 25726840}
   NewLapRecord: {fileID: 875488410}
+  WrongWayText: {fileID: 883469873}
   TotalLaps: 10
 --- !u!114 &185460204
 MonoBehaviour:
@@ -2352,9 +2358,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 0
   wpNumFromParentTEST: 0
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1 &204891684
 GameObject:
   m_ObjectHideFlags: 0
@@ -2413,9 +2420,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 0
   wpNumFromParentTEST: 0
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1 &208304467
 GameObject:
   m_ObjectHideFlags: 0
@@ -2474,9 +2482,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 0
   wpNumFromParentTEST: 0
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1001 &216816057
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2766,9 +2775,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 0
   wpNumFromParentTEST: 0
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1001 &232479511
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3182,9 +3192,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 0
   wpNumFromParentTEST: 0
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1001 &254151034
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4341,9 +4352,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 0
   wpNumFromParentTEST: 0
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1001 &371969250
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6459,9 +6471,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 0
   wpNumFromParentTEST: 0
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!4 &536086351 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4040137310881316, guid: 6f1c4a61df85dcd47821dc9497adb1e6,
@@ -13731,9 +13744,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 0
   wpNumFromParentTEST: 0
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1 &628125112
 GameObject:
   m_ObjectHideFlags: 0
@@ -13792,9 +13806,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 0
   wpNumFromParentTEST: 0
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1001 &629471569
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13989,9 +14004,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 0
   wpNumFromParentTEST: 0
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1 &637223120
 GameObject:
   m_ObjectHideFlags: 0
@@ -14050,9 +14066,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 0
   wpNumFromParentTEST: 0
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!4 &639307969 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4040137310881316, guid: 6f1c4a61df85dcd47821dc9497adb1e6,
@@ -14182,9 +14199,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 0
   wpNumFromParentTEST: 0
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!4 &645887455 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4040137310881316, guid: 6f1c4a61df85dcd47821dc9497adb1e6,
@@ -14338,9 +14356,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 0
   wpNumFromParentTEST: 0
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1 &659672377
 GameObject:
   m_ObjectHideFlags: 0
@@ -14399,9 +14418,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 0
   wpNumFromParentTEST: 0
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1001 &660219489
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14900,9 +14920,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 0
   wpNumFromParentTEST: 0
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1 &707658339
 GameObject:
   m_ObjectHideFlags: 0
@@ -15109,6 +15130,7 @@ Transform:
   - {fileID: 414703512}
   - {fileID: 341875046}
   - {fileID: 875488411}
+  - {fileID: 883469874}
   m_Father: {fileID: 185460208}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -15955,9 +15977,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 0
   wpNumFromParentTEST: 0
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1001 &822699654
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16686,9 +16709,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 0
   wpNumFromParentTEST: 0
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!4 &866924983 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4040137310881316, guid: 6f1c4a61df85dcd47821dc9497adb1e6,
@@ -16840,6 +16864,86 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f1c4a61df85dcd47821dc9497adb1e6, type: 3}
+--- !u!1 &883469873
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 883469874}
+  - component: {fileID: 883469876}
+  - component: {fileID: 883469875}
+  m_Layer: 5
+  m_Name: WrongWayText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &883469874
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 883469873}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 728630553}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 971, y: 792.4}
+  m_SizeDelta: {x: 299.7, y: 81.4}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &883469875
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 883469873}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: ecea9e7cb9c09044d891734d85e7c63b, type: 3}
+    m_FontSize: 30
+    m_FontStyle: 0
+    m_BestFit: 1
+    m_MinSize: 0
+    m_MaxSize: 40
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Wrong Way!
+--- !u!222 &883469876
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 883469873}
+  m_CullTransparentMesh: 1
 --- !u!1 &888434244
 GameObject:
   m_ObjectHideFlags: 0
@@ -17446,9 +17550,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 0
   wpNumFromParentTEST: 0
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1001 &943012536
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17767,9 +17872,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 0
   wpNumFromParentTEST: 0
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1001 &962304942
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18099,9 +18205,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 0
   wpNumFromParentTEST: 0
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!4 &1003788538 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4040137310881316, guid: 6f1c4a61df85dcd47821dc9497adb1e6,
@@ -18273,9 +18380,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 0
   wpNumFromParentTEST: 0
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!4 &1030768726 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4040137310881316, guid: 6f1c4a61df85dcd47821dc9497adb1e6,
@@ -18630,9 +18738,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 0
   wpNumFromParentTEST: 0
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!4 &1056866978 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4040137310881316, guid: 6f1c4a61df85dcd47821dc9497adb1e6,
@@ -19536,9 +19645,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 0
   wpNumFromParentTEST: 0
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!4 &1112420161 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4040137310881316, guid: 6f1c4a61df85dcd47821dc9497adb1e6,
@@ -19816,9 +19926,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 0
   wpNumFromParentTEST: 0
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!4 &1117596049 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4040137310881316, guid: 6f1c4a61df85dcd47821dc9497adb1e6,
@@ -20371,9 +20482,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 0
   wpNumFromParentTEST: 0
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1 &1166709354
 GameObject:
   m_ObjectHideFlags: 0
@@ -20705,9 +20817,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 0
   wpNumFromParentTEST: 0
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1 &1187935504
 GameObject:
   m_ObjectHideFlags: 0
@@ -21384,9 +21497,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 0
   wpNumFromParentTEST: 0
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1 &1263151668 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5246601064726930376, guid: d872b60aa6b43284b8356b16ee4d9b84,
@@ -21605,9 +21719,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 0
   wpNumFromParentTEST: 0
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1 &1307834327
 GameObject:
   m_ObjectHideFlags: 0
@@ -22859,9 +22974,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 0
   wpNumFromParentTEST: 0
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1001 &1395496116
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23281,9 +23397,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 0
   wpNumFromParentTEST: 0
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1001 &1443716121
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23622,9 +23739,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 0
   wpNumFromParentTEST: 0
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1 &1495256765
 GameObject:
   m_ObjectHideFlags: 0
@@ -23675,6 +23793,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentWP: 0
+  ThisWPNumber: 0
+  LastWPNumber: 0
 --- !u!82 &1495256768
 AudioSource:
   m_ObjectHideFlags: 0
@@ -24653,9 +24773,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 0
   wpNumFromParentTEST: 0
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1001 &1581017216
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25570,9 +25691,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 0
   wpNumFromParentTEST: 0
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1001 &1693359054
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25696,9 +25818,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 0
   wpNumFromParentTEST: 0
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!4 &1710823997 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4040137310881316, guid: 6f1c4a61df85dcd47821dc9497adb1e6,
@@ -26390,9 +26513,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 0
   wpNumFromParentTEST: 0
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1001 &1775817121
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26641,9 +26765,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 0
   wpNumFromParentTEST: 0
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!4 &1801150432 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4040137310881316, guid: 6f1c4a61df85dcd47821dc9497adb1e6,
@@ -27190,9 +27315,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 0
   wpNumFromParentTEST: 0
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!4 &1884353877 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4040137310881316, guid: 6f1c4a61df85dcd47821dc9497adb1e6,
@@ -27844,9 +27970,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 0
   wpNumFromParentTEST: 0
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1 &1998550228
 GameObject:
   m_ObjectHideFlags: 0
@@ -27905,9 +28032,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 0
   wpNumFromParentTEST: 0
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1001 &2005682861
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -28176,9 +28304,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 0
   wpNumFromParentTEST: 0
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!4 &2016946406 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4040137310881316, guid: 6f1c4a61df85dcd47821dc9497adb1e6,
@@ -28477,7 +28606,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2074175823}
   m_LocalRotation: {x: -0, y: -0.10729605, z: -0, w: 0.9942272}
-  m_LocalPosition: {x: -7.779999, y: -1.1199999, z: -3.300003}
+  m_LocalPosition: {x: 20.4, y: -1.1199999, z: 2.9}
   m_LocalScale: {x: 0.01, y: 9.736651, z: 40.021786}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -28509,9 +28638,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 0
   wpNumFromParentTEST: 0
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1001 &2075081184
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -28635,9 +28765,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 0
   wpNumFromParentTEST: 0
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1001 &2081346524
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -14,7 +14,7 @@ public class ProgressWaypointManagerParent : MonoBehaviour
 
     void Init(){
         waypoints = GetComponentsInChildren<ProgressWaypoints>();
-        for(var i = 0; i < waypoints.Length - 1; i++){
+        for(var i = 0; i < waypoints.Length; i++){
             waypoints[i].wpNumFromParentTEST = i + 1;
         }
     }
