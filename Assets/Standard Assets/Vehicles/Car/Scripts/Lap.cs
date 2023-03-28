@@ -30,7 +30,7 @@ public class Lap : MonoBehaviour
                 SaveScript.CheckPointPass3 = false;
                 SaveScript.LastCheckPoint1 = SaveScript.ThisCheckPoint1;
                 SaveScript.LastCheckPoint2 = SaveScript.ThisCheckPoint2;
-                SaveScript.LastCheckPoint3 = SaveScript.ThisCheckPoint3;  
+                SaveScript.LastCheckPoint3 = SaveScript.ThisCheckPoint3;   
             }
         }
     }
