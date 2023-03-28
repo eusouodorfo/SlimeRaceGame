@@ -416,7 +416,7 @@ GameObject:
   - component: {fileID: 28436639}
   - component: {fileID: 28436640}
   m_Layer: 0
-  m_Name: ProgressWaypoint (42)
+  m_Name: ProgressWaypoint 73
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -430,12 +430,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 28436637}
   m_LocalRotation: {x: -0, y: -0.060946528, z: -0, w: -0.9981411}
-  m_LocalPosition: {x: -265.25, y: -1.1199999, z: -49.339996}
+  m_LocalPosition: {x: -265.25, y: 0, z: -49.339996}
   m_LocalScale: {x: 0.01, y: 9.736651, z: 52.861897}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 836994612}
-  m_RootOrder: 42
+  m_RootOrder: 72
   m_LocalEulerAnglesHint: {x: 0, y: -353.012, z: 0}
 --- !u!65 &28436639
 BoxCollider:
@@ -462,10 +462,72 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wpNumFromParentTEST: 0
+  WPNumber: 73
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
+--- !u!1 &28494678
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 28494679}
+  - component: {fileID: 28494683}
+  - component: {fileID: 28494682}
+  m_Layer: 0
+  m_Name: ProgressWaypoint 32
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &28494679
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 28494678}
+  m_LocalRotation: {x: -0, y: -0.9956352, z: -0, w: 0.093330085}
+  m_LocalPosition: {x: -272.36, y: 0, z: 317.27}
+  m_LocalScale: {x: 0.009999999, y: 9.736651, z: 50.229065}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 836994612}
+  m_RootOrder: 31
+  m_LocalEulerAnglesHint: {x: 0, y: -169.29, z: 0}
+--- !u!114 &28494682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 28494678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WPNumber: 32
+  CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
+--- !u!65 &28494683
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 28494678}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &30037551
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -543,7 +605,7 @@ GameObject:
   - component: {fileID: 33936083}
   - component: {fileID: 33936084}
   m_Layer: 0
-  m_Name: ProgressWaypoint (25)
+  m_Name: ProgressWaypoint 56
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -557,12 +619,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 33936081}
   m_LocalRotation: {x: -0, y: -0.9890857, z: -0, w: 0.14734201}
-  m_LocalPosition: {x: -413.7, y: -1.1199999, z: 28.800003}
+  m_LocalPosition: {x: -414.91, y: 0, z: 24.83}
   m_LocalScale: {x: 0.01, y: 9.736651, z: 41.195057}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 836994612}
-  m_RootOrder: 25
+  m_RootOrder: 55
   m_LocalEulerAnglesHint: {x: 0, y: -163.054, z: 0}
 --- !u!65 &33936083
 BoxCollider:
@@ -589,7 +651,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wpNumFromParentTEST: 0
+  WPNumber: 56
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -794,6 +856,68 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f1c4a61df85dcd47821dc9497adb1e6, type: 3}
+--- !u!1 &59801349
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 59801350}
+  - component: {fileID: 59801354}
+  - component: {fileID: 59801353}
+  m_Layer: 0
+  m_Name: ProgressWaypoint 10
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &59801350
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 59801349}
+  m_LocalRotation: {x: -0, y: -0.73120886, z: -0, w: 0.6821537}
+  m_LocalPosition: {x: 225.4, y: 0, z: 117.8}
+  m_LocalScale: {x: 0.01, y: 9.736651, z: 137.02103}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 836994612}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: -93.976, z: 0}
+--- !u!114 &59801353
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 59801349}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WPNumber: 10
+  CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
+--- !u!65 &59801354
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 59801349}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &61696165
 GameObject:
   m_ObjectHideFlags: 0
@@ -806,7 +930,7 @@ GameObject:
   - component: {fileID: 61696167}
   - component: {fileID: 61696168}
   m_Layer: 0
-  m_Name: ProgressWaypoint (27)
+  m_Name: ProgressWaypoint 58
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -820,12 +944,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 61696165}
   m_LocalRotation: {x: -0, y: -0.40054613, z: -0, w: 0.91627663}
-  m_LocalPosition: {x: -383.4, y: -1.1199999, z: 87.4}
-  m_LocalScale: {x: 0.01, y: 9.736651, z: 41.195057}
+  m_LocalPosition: {x: -382.05, y: 0, z: 86.16}
+  m_LocalScale: {x: 0.01, y: 9.736651, z: 30.362816}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 836994612}
-  m_RootOrder: 27
+  m_RootOrder: 57
   m_LocalEulerAnglesHint: {x: 0, y: -47.225, z: 0}
 --- !u!65 &61696167
 BoxCollider:
@@ -852,7 +976,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wpNumFromParentTEST: 0
+  WPNumber: 58
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -1004,7 +1128,7 @@ GameObject:
   - component: {fileID: 77812941}
   - component: {fileID: 77812942}
   m_Layer: 0
-  m_Name: ProgressWaypoint (1)
+  m_Name: ProgressWaypoint 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1018,7 +1142,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 77812939}
   m_LocalRotation: {x: -0, y: -0.10729605, z: -0, w: 0.9942272}
-  m_LocalPosition: {x: 86.6, y: -1.1199999, z: 17.4}
+  m_LocalPosition: {x: 32.3, y: 0, z: 5.5}
   m_LocalScale: {x: 0.01, y: 9.736651, z: 40.021786}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1050,7 +1174,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wpNumFromParentTEST: 0
+  WPNumber: 2
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -1338,7 +1462,7 @@ GameObject:
   - component: {fileID: 93934845}
   - component: {fileID: 93934846}
   m_Layer: 0
-  m_Name: ProgressWaypoint (38)
+  m_Name: ProgressWaypoint 69
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1352,12 +1476,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 93934843}
   m_LocalRotation: {x: -0, y: -0.060946528, z: -0, w: -0.9981411}
-  m_LocalPosition: {x: -461.5, y: -1.1199999, z: -25.100006}
-  m_LocalScale: {x: 0.01, y: 9.736651, z: 71.35881}
+  m_LocalPosition: {x: -460.61, y: 0, z: -17.89}
+  m_LocalScale: {x: 0.01, y: 9.736651, z: 55.273823}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 836994612}
-  m_RootOrder: 38
+  m_RootOrder: 68
   m_LocalEulerAnglesHint: {x: 0, y: -353.012, z: 0}
 --- !u!65 &93934845
 BoxCollider:
@@ -1384,7 +1508,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wpNumFromParentTEST: 0
+  WPNumber: 69
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -2123,6 +2247,68 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &188923857
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 188923858}
+  - component: {fileID: 188923862}
+  - component: {fileID: 188923861}
+  m_Layer: 0
+  m_Name: ProgressWaypoint 13
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &188923858
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 188923857}
+  m_LocalRotation: {x: -0, y: -0.80695915, z: -0, w: 0.5906072}
+  m_LocalPosition: {x: 205.1, y: 0, z: 202.2}
+  m_LocalScale: {x: 0.01, y: 9.736651, z: 85.43268}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 836994612}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: -107.6, z: 0}
+--- !u!114 &188923861
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 188923857}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WPNumber: 13
+  CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
+--- !u!65 &188923862
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 188923857}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &189251605 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4040137310881316, guid: 6f1c4a61df85dcd47821dc9497adb1e6,
@@ -2313,7 +2499,7 @@ GameObject:
   - component: {fileID: 199401500}
   - component: {fileID: 199401501}
   m_Layer: 0
-  m_Name: ProgressWaypoint (39)
+  m_Name: ProgressWaypoint 70
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2327,12 +2513,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 199401498}
   m_LocalRotation: {x: -0, y: -0.060946528, z: -0, w: -0.9981411}
-  m_LocalPosition: {x: -415.79, y: -1.1199999, z: -25.089996}
+  m_LocalPosition: {x: -415.79, y: 0, z: -25.089996}
   m_LocalScale: {x: 0.01, y: 9.736651, z: 52.861897}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 836994612}
-  m_RootOrder: 39
+  m_RootOrder: 69
   m_LocalEulerAnglesHint: {x: 0, y: -353.012, z: 0}
 --- !u!65 &199401500
 BoxCollider:
@@ -2359,7 +2545,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wpNumFromParentTEST: 0
+  WPNumber: 70
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -2375,7 +2561,7 @@ GameObject:
   - component: {fileID: 204891686}
   - component: {fileID: 204891687}
   m_Layer: 0
-  m_Name: ProgressWaypoint (17)
+  m_Name: ProgressWaypoint 48
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2389,12 +2575,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 204891684}
   m_LocalRotation: {x: -0, y: -0.99511826, z: -0, w: -0.09868972}
-  m_LocalPosition: {x: -177.5, y: -1.1199999, z: 14}
-  m_LocalScale: {x: 0.01, y: 9.736651, z: 32.139915}
+  m_LocalPosition: {x: -177.5, y: 0, z: 14}
+  m_LocalScale: {x: 0.01, y: 9.736651, z: 30.00913}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 836994612}
-  m_RootOrder: 17
+  m_RootOrder: 47
   m_LocalEulerAnglesHint: {x: 0, y: -191.327, z: 0}
 --- !u!65 &204891686
 BoxCollider:
@@ -2421,7 +2607,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wpNumFromParentTEST: 0
+  WPNumber: 48
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -2437,7 +2623,7 @@ GameObject:
   - component: {fileID: 208304469}
   - component: {fileID: 208304470}
   m_Layer: 0
-  m_Name: ProgressWaypoint (3)
+  m_Name: ProgressWaypoint 7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2451,12 +2637,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 208304467}
   m_LocalRotation: {x: -0, y: -0.5688856, z: -0, w: 0.82241666}
-  m_LocalPosition: {x: 201.80002, y: -1.1199999, z: 46.300003}
+  m_LocalPosition: {x: 201.80002, y: 0, z: 46.300003}
   m_LocalScale: {x: 0.01, y: 9.736651, z: 65.70376}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 836994612}
-  m_RootOrder: 3
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: -69.345, z: 0}
 --- !u!65 &208304469
 BoxCollider:
@@ -2483,7 +2669,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wpNumFromParentTEST: 0
+  WPNumber: 7
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -2730,7 +2916,7 @@ GameObject:
   - component: {fileID: 229786569}
   - component: {fileID: 229786570}
   m_Layer: 0
-  m_Name: ProgressWaypoint (33)
+  m_Name: ProgressWaypoint 64
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2744,12 +2930,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 229786567}
   m_LocalRotation: {x: -0, y: -0.866194, z: -0, w: -0.49970794}
-  m_LocalPosition: {x: -555.4, y: -1.1199999, z: 199.8}
+  m_LocalPosition: {x: -555.4, y: 0, z: 199.8}
   m_LocalScale: {x: 0.009999999, y: 9.736651, z: 59.349716}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 836994612}
-  m_RootOrder: 33
+  m_RootOrder: 63
   m_LocalEulerAnglesHint: {x: 0, y: -239.961, z: 0}
 --- !u!65 &229786569
 BoxCollider:
@@ -2776,7 +2962,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wpNumFromParentTEST: 0
+  WPNumber: 64
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -3147,7 +3333,7 @@ GameObject:
   - component: {fileID: 253232200}
   - component: {fileID: 253232201}
   m_Layer: 0
-  m_Name: ProgressWaypoint (28)
+  m_Name: ProgressWaypoint 59
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3161,12 +3347,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 253232198}
   m_LocalRotation: {x: -0, y: -0.6620668, z: -0, w: 0.7494449}
-  m_LocalPosition: {x: -363, y: -1.1199999, z: 115.5}
-  m_LocalScale: {x: 0.01, y: 9.736651, z: 41.195053}
+  m_LocalPosition: {x: -363.55, y: 0, z: 115.57}
+  m_LocalScale: {x: 0.01, y: 9.736651, z: 32.61536}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 836994612}
-  m_RootOrder: 28
+  m_RootOrder: 58
   m_LocalEulerAnglesHint: {x: 0, y: -82.915, z: 0}
 --- !u!65 &253232200
 BoxCollider:
@@ -3193,7 +3379,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wpNumFromParentTEST: 0
+  WPNumber: 59
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -4038,6 +4224,68 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 333857921}
   m_Mesh: {fileID: -8610555485164514027, guid: 0c2279101805fcb4ebecf9c63e3f3d12, type: 3}
+--- !u!1 &334739048
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 334739049}
+  - component: {fileID: 334739053}
+  - component: {fileID: 334739052}
+  m_Layer: 0
+  m_Name: ProgressWaypoint 31
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &334739049
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 334739048}
+  m_LocalRotation: {x: -0, y: -0.9956352, z: -0, w: 0.093330085}
+  m_LocalPosition: {x: -254.04, y: 0, z: 314.51}
+  m_LocalScale: {x: 0.009999999, y: 9.736651, z: 50.95702}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 836994612}
+  m_RootOrder: 30
+  m_LocalEulerAnglesHint: {x: 0, y: -169.29, z: 0}
+--- !u!114 &334739052
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 334739048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WPNumber: 31
+  CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
+--- !u!65 &334739053
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 334739048}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &335613819 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4040137310881316, guid: 6f1c4a61df85dcd47821dc9497adb1e6,
@@ -4295,6 +4543,68 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 24834826}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &367145931
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 367145932}
+  - component: {fileID: 367145936}
+  - component: {fileID: 367145935}
+  m_Layer: 0
+  m_Name: ProgressWaypoint 11
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &367145932
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 367145931}
+  m_LocalRotation: {x: -0, y: -0.73120886, z: -0, w: 0.6821537}
+  m_LocalPosition: {x: 226.9, y: 0, z: 141.7}
+  m_LocalScale: {x: 0.01, y: 9.736651, z: 115.280685}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 836994612}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: -93.976, z: 0}
+--- !u!114 &367145935
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 367145931}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WPNumber: 11
+  CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
+--- !u!65 &367145936
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 367145931}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &370040313
 GameObject:
   m_ObjectHideFlags: 0
@@ -4307,7 +4617,7 @@ GameObject:
   - component: {fileID: 370040315}
   - component: {fileID: 370040316}
   m_Layer: 0
-  m_Name: ProgressWaypoint (37)
+  m_Name: ProgressWaypoint 68
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4321,12 +4631,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 370040313}
   m_LocalRotation: {x: -0, y: -0.28460568, z: -0, w: -0.9586447}
-  m_LocalPosition: {x: -510.8, y: -1.1199999, z: -0.5}
+  m_LocalPosition: {x: -510.8, y: 0, z: -0.5}
   m_LocalScale: {x: 0.01, y: 9.736651, z: 71.35881}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 836994612}
-  m_RootOrder: 37
+  m_RootOrder: 67
   m_LocalEulerAnglesHint: {x: 0, y: -326.92902, z: 0}
 --- !u!65 &370040315
 BoxCollider:
@@ -4353,7 +4663,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wpNumFromParentTEST: 0
+  WPNumber: 68
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -6172,6 +6482,68 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f1c4a61df85dcd47821dc9497adb1e6, type: 3}
+--- !u!1 &496628306
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 496628307}
+  - component: {fileID: 496628311}
+  - component: {fileID: 496628310}
+  m_Layer: 0
+  m_Name: ProgressWaypoint 36
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &496628307
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 496628306}
+  m_LocalRotation: {x: -0, y: -0.781621, z: -0, w: -0.62375367}
+  m_LocalPosition: {x: -366.91, y: 0, z: 292.08}
+  m_LocalScale: {x: 0.009999999, y: 9.736651, z: 32.139915}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 836994612}
+  m_RootOrder: 35
+  m_LocalEulerAnglesHint: {x: 0, y: -257.182, z: 0}
+--- !u!114 &496628310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 496628306}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WPNumber: 36
+  CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
+--- !u!65 &496628311
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 496628306}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &499563795
 GameObject:
   m_ObjectHideFlags: 0
@@ -6227,6 +6599,68 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 499563795}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &500819624
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 500819625}
+  - component: {fileID: 500819629}
+  - component: {fileID: 500819628}
+  m_Layer: 0
+  m_Name: ProgressWaypoint 14
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &500819625
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 500819624}
+  m_LocalRotation: {x: -0, y: -0.9337759, z: -0, w: 0.35785842}
+  m_LocalPosition: {x: 170.3, y: 0, z: 222.84}
+  m_LocalScale: {x: 0.009999999, y: 9.736651, z: 57.307762}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 836994612}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: -138.062, z: 0}
+--- !u!114 &500819628
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 500819624}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WPNumber: 14
+  CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
+--- !u!65 &500819629
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 500819624}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
@@ -6414,6 +6848,68 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 836076536}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &529072893
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 529072894}
+  - component: {fileID: 529072898}
+  - component: {fileID: 529072897}
+  m_Layer: 0
+  m_Name: ProgressWaypoint 24
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &529072894
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 529072893}
+  m_LocalRotation: {x: -0, y: -0.9956352, z: -0, w: 0.093330085}
+  m_LocalPosition: {x: -92.28, y: 0, z: 286.23}
+  m_LocalScale: {x: 0.009999999, y: 9.736651, z: 57.08182}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 836994612}
+  m_RootOrder: 23
+  m_LocalEulerAnglesHint: {x: 0, y: -169.29, z: 0}
+--- !u!114 &529072897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 529072893}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WPNumber: 24
+  CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
+--- !u!65 &529072898
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 529072893}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &533756845
 GameObject:
   m_ObjectHideFlags: 0
@@ -6426,7 +6922,7 @@ GameObject:
   - component: {fileID: 533756847}
   - component: {fileID: 533756848}
   m_Layer: 0
-  m_Name: ProgressWaypoint (22)
+  m_Name: ProgressWaypoint 53
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6440,12 +6936,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 533756845}
   m_LocalRotation: {x: -0, y: -0.95089996, z: -0, w: -0.30949843}
-  m_LocalPosition: {x: -304.9, y: -1.1199999, z: 73.1}
-  m_LocalScale: {x: 0.01, y: 9.736651, z: 39.450573}
+  m_LocalPosition: {x: -305.84, y: 0, z: 74.4}
+  m_LocalScale: {x: 0.01, y: 9.736651, z: 31.047997}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 836994612}
-  m_RootOrder: 22
+  m_RootOrder: 52
   m_LocalEulerAnglesHint: {x: 0, y: -216.058, z: 0}
 --- !u!65 &533756847
 BoxCollider:
@@ -6472,7 +6968,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wpNumFromParentTEST: 0
+  WPNumber: 53
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -13699,7 +14195,7 @@ GameObject:
   - component: {fileID: 626653851}
   - component: {fileID: 626653852}
   m_Layer: 0
-  m_Name: ProgressWaypoint (46)
+  m_Name: ProgressWaypoint 77
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13713,12 +14209,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 626653849}
   m_LocalRotation: {x: -0, y: 0.07713759, z: -0, w: -0.9970205}
-  m_LocalPosition: {x: -80.6, y: -1.1199999, z: -22.300003}
-  m_LocalScale: {x: 0.01, y: 9.736651, z: 52.861893}
+  m_LocalPosition: {x: -81.32, y: 0, z: -17.67}
+  m_LocalScale: {x: 0.01, y: 9.736651, z: 37.038532}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 836994612}
-  m_RootOrder: 46
+  m_RootOrder: 76
   m_LocalEulerAnglesHint: {x: 0, y: -368.848, z: 0}
 --- !u!65 &626653851
 BoxCollider:
@@ -13745,7 +14241,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wpNumFromParentTEST: 0
+  WPNumber: 77
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -13761,7 +14257,7 @@ GameObject:
   - component: {fileID: 628125114}
   - component: {fileID: 628125115}
   m_Layer: 0
-  m_Name: ProgressWaypoint (23)
+  m_Name: ProgressWaypoint 54
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13775,12 +14271,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 628125112}
   m_LocalRotation: {x: -0, y: -0.97594047, z: -0, w: -0.21803722}
-  m_LocalPosition: {x: -354, y: -1.1199999, z: 46.800003}
+  m_LocalPosition: {x: -354, y: 0, z: 46.800003}
   m_LocalScale: {x: 0.010000001, y: 9.736651, z: 39.450573}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 836994612}
-  m_RootOrder: 23
+  m_RootOrder: 53
   m_LocalEulerAnglesHint: {x: 0, y: -205.188, z: 0}
 --- !u!65 &628125114
 BoxCollider:
@@ -13807,7 +14303,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wpNumFromParentTEST: 0
+  WPNumber: 54
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -13947,6 +14443,68 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1775817121}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &632715848
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 632715849}
+  - component: {fileID: 632715853}
+  - component: {fileID: 632715852}
+  m_Layer: 0
+  m_Name: ProgressWaypoint 16
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &632715849
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 632715848}
+  m_LocalRotation: {x: -0, y: -0.9787528, z: -0, w: 0.20504397}
+  m_LocalPosition: {x: 106.6, y: 0, z: 248.3}
+  m_LocalScale: {x: 0.009999999, y: 9.736651, z: 57.307762}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 836994612}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 0, y: -156.336, z: 0}
+--- !u!114 &632715852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 632715848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WPNumber: 16
+  CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
+--- !u!65 &632715853
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 632715848}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &633484054
 GameObject:
   m_ObjectHideFlags: 0
@@ -13959,7 +14517,7 @@ GameObject:
   - component: {fileID: 633484056}
   - component: {fileID: 633484057}
   m_Layer: 0
-  m_Name: ProgressWaypoint (10)
+  m_Name: ProgressWaypoint 41
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13973,12 +14531,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 633484054}
   m_LocalRotation: {x: -0, y: -0.20825925, z: -0, w: -0.9780737}
-  m_LocalPosition: {x: -312.5, y: -1.1199999, z: 175.1}
+  m_LocalPosition: {x: -312.5, y: 0, z: 175.1}
   m_LocalScale: {x: 0.01, y: 9.736651, z: 32.139915}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 836994612}
-  m_RootOrder: 10
+  m_RootOrder: 40
   m_LocalEulerAnglesHint: {x: 0, y: -335.95898, z: 0}
 --- !u!65 &633484056
 BoxCollider:
@@ -14005,7 +14563,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wpNumFromParentTEST: 0
+  WPNumber: 41
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -14021,7 +14579,7 @@ GameObject:
   - component: {fileID: 637223122}
   - component: {fileID: 637223123}
   m_Layer: 0
-  m_Name: ProgressWaypoint (4)
+  m_Name: ProgressWaypoint 8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14035,12 +14593,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 637223120}
   m_LocalRotation: {x: -0, y: -0.73120886, z: -0, w: 0.6821537}
-  m_LocalPosition: {x: 227.1, y: -1.1199999, z: 92.3}
-  m_LocalScale: {x: 0.01, y: 9.736651, z: 153.44168}
+  m_LocalPosition: {x: 227.8, y: 0, z: 82.8}
+  m_LocalScale: {x: 0.01, y: 9.736651, z: 138.76472}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 836994612}
-  m_RootOrder: 4
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: -93.976, z: 0}
 --- !u!65 &637223122
 BoxCollider:
@@ -14067,7 +14625,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wpNumFromParentTEST: 0
+  WPNumber: 8
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -14077,6 +14635,68 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 541714030}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &640065190
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 640065191}
+  - component: {fileID: 640065195}
+  - component: {fileID: 640065194}
+  m_Layer: 0
+  m_Name: ProgressWaypoint 35
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &640065191
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 640065190}
+  m_LocalRotation: {x: -0, y: -0.93065846, z: -0, w: -0.3658892}
+  m_LocalPosition: {x: -350.1, y: 0, z: 313.72}
+  m_LocalScale: {x: 0.009999999, y: 9.736651, z: 37.137672}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 836994612}
+  m_RootOrder: 34
+  m_LocalEulerAnglesHint: {x: 0, y: -222.925, z: 0}
+--- !u!114 &640065194
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 640065190}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WPNumber: 35
+  CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
+--- !u!65 &640065195
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 640065190}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &641860161
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14154,7 +14774,7 @@ GameObject:
   - component: {fileID: 642157620}
   - component: {fileID: 642157621}
   m_Layer: 0
-  m_Name: ProgressWaypoint (35)
+  m_Name: ProgressWaypoint 66
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14168,12 +14788,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 642157618}
   m_LocalRotation: {x: -0, y: -0.70205146, z: -0, w: -0.71212626}
-  m_LocalPosition: {x: -583.6, y: -1.1199999, z: 112.3}
+  m_LocalPosition: {x: -583.6, y: 0, z: 112.3}
   m_LocalScale: {x: 0.010000001, y: 9.736651, z: 91.56312}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 836994612}
-  m_RootOrder: 35
+  m_RootOrder: 65
   m_LocalEulerAnglesHint: {x: 0, y: -270.816, z: 0}
 --- !u!65 &642157620
 BoxCollider:
@@ -14200,7 +14820,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wpNumFromParentTEST: 0
+  WPNumber: 66
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -14311,7 +14931,7 @@ GameObject:
   - component: {fileID: 657251306}
   - component: {fileID: 657251307}
   m_Layer: 0
-  m_Name: ProgressWaypoint (30)
+  m_Name: ProgressWaypoint 61
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14325,12 +14945,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 657251304}
   m_LocalRotation: {x: -0, y: -0.963924, z: -0, w: 0.26617765}
-  m_LocalPosition: {x: -430.6, y: -1.1199999, z: 174.3}
-  m_LocalScale: {x: 0.010000001, y: 9.736651, z: 41.19506}
+  m_LocalPosition: {x: -430.4, y: 0, z: 174.64}
+  m_LocalScale: {x: 0.010000001, y: 9.736651, z: 29.06641}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 836994612}
-  m_RootOrder: 30
+  m_RootOrder: 60
   m_LocalEulerAnglesHint: {x: 0, y: -149.126, z: 0}
 --- !u!65 &657251306
 BoxCollider:
@@ -14357,7 +14977,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wpNumFromParentTEST: 0
+  WPNumber: 61
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -14373,7 +14993,7 @@ GameObject:
   - component: {fileID: 659672379}
   - component: {fileID: 659672380}
   m_Layer: 0
-  m_Name: ProgressWaypoint (7)
+  m_Name: ProgressWaypoint 34
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14387,12 +15007,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 659672377}
   m_LocalRotation: {x: -0, y: -0.9999822, z: -0, w: -0.005967861}
-  m_LocalPosition: {x: -312.5, y: -1.1199999, z: 324.7}
+  m_LocalPosition: {x: -312.5, y: 0, z: 324.7}
   m_LocalScale: {x: 0.010000001, y: 9.736651, z: 57.307766}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 836994612}
-  m_RootOrder: 7
+  m_RootOrder: 33
   m_LocalEulerAnglesHint: {x: 0, y: -180.684, z: 0}
 --- !u!65 &659672379
 BoxCollider:
@@ -14419,7 +15039,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wpNumFromParentTEST: 0
+  WPNumber: 34
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -14875,7 +15495,7 @@ GameObject:
   - component: {fileID: 697221496}
   - component: {fileID: 697221497}
   m_Layer: 0
-  m_Name: ProgressWaypoint (9)
+  m_Name: ProgressWaypoint 40
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14889,12 +15509,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 697221494}
   m_LocalRotation: {x: -0, y: -0.20825925, z: -0, w: -0.9780737}
-  m_LocalPosition: {x: -349.6, y: -1.1199999, z: 195.3}
+  m_LocalPosition: {x: -349.6, y: 0, z: 195.3}
   m_LocalScale: {x: 0.01, y: 9.736651, z: 32.139915}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 836994612}
-  m_RootOrder: 9
+  m_RootOrder: 39
   m_LocalEulerAnglesHint: {x: 0, y: -335.95898, z: 0}
 --- !u!65 &697221496
 BoxCollider:
@@ -14921,10 +15541,72 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wpNumFromParentTEST: 0
+  WPNumber: 40
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
+--- !u!1 &704546726
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 704546727}
+  - component: {fileID: 704546731}
+  - component: {fileID: 704546730}
+  m_Layer: 0
+  m_Name: ProgressWaypoint 22
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &704546727
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 704546726}
+  m_LocalRotation: {x: -0, y: -0.9956352, z: -0, w: 0.093330085}
+  m_LocalPosition: {x: -40.08, y: 0, z: 277.99}
+  m_LocalScale: {x: 0.009999999, y: 9.736651, z: 60.785927}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 836994612}
+  m_RootOrder: 21
+  m_LocalEulerAnglesHint: {x: 0, y: -169.29, z: 0}
+--- !u!114 &704546730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 704546726}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WPNumber: 22
+  CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
+--- !u!65 &704546731
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 704546726}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &707658339
 GameObject:
   m_ObjectHideFlags: 0
@@ -15585,6 +16267,68 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f1c4a61df85dcd47821dc9497adb1e6, type: 3}
+--- !u!1 &775250053
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 775250054}
+  - component: {fileID: 775250058}
+  - component: {fileID: 775250057}
+  m_Layer: 0
+  m_Name: ProgressWaypoint 23
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &775250054
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 775250053}
+  m_LocalRotation: {x: -0, y: -0.9956352, z: -0, w: 0.093330085}
+  m_LocalPosition: {x: -64.84, y: 0, z: 281.77}
+  m_LocalScale: {x: 0.009999999, y: 9.736651, z: 57.65606}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 836994612}
+  m_RootOrder: 22
+  m_LocalEulerAnglesHint: {x: 0, y: -169.29, z: 0}
+--- !u!114 &775250057
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 775250053}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WPNumber: 23
+  CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
+--- !u!65 &775250058
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 775250053}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &777231473 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4040137310881316, guid: 6f1c4a61df85dcd47821dc9497adb1e6,
@@ -15932,7 +16676,7 @@ GameObject:
   - component: {fileID: 821753831}
   - component: {fileID: 821753832}
   m_Layer: 0
-  m_Name: ProgressWaypoint (2)
+  m_Name: ProgressWaypoint 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15946,7 +16690,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 821753829}
   m_LocalRotation: {x: -0, y: -0.10729605, z: -0, w: 0.9942272}
-  m_LocalPosition: {x: 139.4, y: -1.1199999, z: 28.900002}
+  m_LocalPosition: {x: 58.1, y: 0, z: 11.2}
   m_LocalScale: {x: 0.01, y: 9.736651, z: 40.021786}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -15978,7 +16722,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wpNumFromParentTEST: 0
+  WPNumber: 3
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -16257,7 +17001,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 836994612}
-  - component: {fileID: 836994613}
   m_Layer: 0
   m_Name: AllWaypoints
   m_TagString: Untagged
@@ -16280,12 +17023,42 @@ Transform:
   - {fileID: 2074175824}
   - {fileID: 77812940}
   - {fileID: 821753830}
+  - {fileID: 1268550872}
+  - {fileID: 1274325756}
+  - {fileID: 1326232763}
   - {fileID: 208304468}
   - {fileID: 637223121}
+  - {fileID: 1361978746}
+  - {fileID: 59801350}
+  - {fileID: 367145932}
   - {fileID: 1684668666}
+  - {fileID: 188923858}
+  - {fileID: 500819625}
   - {fileID: 1001452425}
+  - {fileID: 632715849}
+  - {fileID: 1004841810}
+  - {fileID: 972418822}
+  - {fileID: 1642062464}
+  - {fileID: 1693161354}
+  - {fileID: 907448491}
+  - {fileID: 704546727}
+  - {fileID: 775250054}
+  - {fileID: 529072894}
+  - {fileID: 1431918039}
+  - {fileID: 1954440796}
+  - {fileID: 1663714534}
+  - {fileID: 1835331544}
+  - {fileID: 2048619450}
+  - {fileID: 1101712679}
+  - {fileID: 334739049}
+  - {fileID: 28494679}
+  - {fileID: 1877646343}
   - {fileID: 659672378}
+  - {fileID: 640065191}
+  - {fileID: 496628307}
   - {fileID: 1261526073}
+  - {fileID: 1293186130}
+  - {fileID: 1596302492}
   - {fileID: 697221495}
   - {fileID: 633484055}
   - {fileID: 1026941924}
@@ -16327,66 +17100,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &836994613
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 836994611}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d6fa40cea2caa69469aff020bdd4af9c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  waypoints:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
 --- !u!1 &837549601
 GameObject:
   m_ObjectHideFlags: 0
@@ -16664,7 +17377,7 @@ GameObject:
   - component: {fileID: 862958046}
   - component: {fileID: 862958047}
   m_Layer: 0
-  m_Name: ProgressWaypoint (21)
+  m_Name: ProgressWaypoint 52
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16678,12 +17391,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 862958044}
   m_LocalRotation: {x: -0, y: -0.93560386, z: -0, w: 0.35305163}
-  m_LocalPosition: {x: -265.1, y: -1.1199999, z: 73.8}
-  m_LocalScale: {x: 0.010000001, y: 9.736651, z: 39.450577}
+  m_LocalPosition: {x: -264.87, y: 0, z: 74.06}
+  m_LocalScale: {x: 0.010000001, y: 9.736651, z: 26.065784}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 836994612}
-  m_RootOrder: 21
+  m_RootOrder: 51
   m_LocalEulerAnglesHint: {x: 0, y: -138.652, z: 0}
 --- !u!65 &862958046
 BoxCollider:
@@ -16710,7 +17423,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wpNumFromParentTEST: 0
+  WPNumber: 52
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -17272,6 +17985,68 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 683264475}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &907448490
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 907448491}
+  - component: {fileID: 907448495}
+  - component: {fileID: 907448494}
+  m_Layer: 0
+  m_Name: ProgressWaypoint 21
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &907448491
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 907448490}
+  m_LocalRotation: {x: -0, y: -0.9956352, z: -0, w: 0.093330085}
+  m_LocalPosition: {x: -21.3, y: 0, z: 275.97}
+  m_LocalScale: {x: 0.009999999, y: 9.736651, z: 64.53131}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 836994612}
+  m_RootOrder: 20
+  m_LocalEulerAnglesHint: {x: 0, y: -169.29, z: 0}
+--- !u!114 &907448494
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 907448490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WPNumber: 21
+  CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
+--- !u!65 &907448495
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 907448490}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &908786245
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17505,7 +18280,7 @@ GameObject:
   - component: {fileID: 941557939}
   - component: {fileID: 941557940}
   m_Layer: 0
-  m_Name: ProgressWaypoint (29)
+  m_Name: ProgressWaypoint 60
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17519,12 +18294,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 941557937}
   m_LocalRotation: {x: -0, y: -0.963924, z: -0, w: 0.26617765}
-  m_LocalPosition: {x: -390.8, y: -1.1199999, z: 156.3}
-  m_LocalScale: {x: 0.010000001, y: 9.736651, z: 41.19506}
+  m_LocalPosition: {x: -391.33, y: 0, z: 155.41}
+  m_LocalScale: {x: 0.010000001, y: 9.736651, z: 32.254086}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 836994612}
-  m_RootOrder: 29
+  m_RootOrder: 59
   m_LocalEulerAnglesHint: {x: 0, y: -149.126, z: 0}
 --- !u!65 &941557939
 BoxCollider:
@@ -17551,7 +18326,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wpNumFromParentTEST: 0
+  WPNumber: 60
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -17827,7 +18602,7 @@ GameObject:
   - component: {fileID: 951720273}
   - component: {fileID: 951720274}
   m_Layer: 0
-  m_Name: ProgressWaypoint (36)
+  m_Name: ProgressWaypoint 67
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17841,12 +18616,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 951720271}
   m_LocalRotation: {x: -0, y: -0.5476039, z: -0, w: -0.83673775}
-  m_LocalPosition: {x: -559.4, y: -1.1199999, z: 48.199997}
+  m_LocalPosition: {x: -559.4, y: 0, z: 48.199997}
   m_LocalScale: {x: 0.010000001, y: 9.736651, z: 91.563126}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 836994612}
-  m_RootOrder: 36
+  m_RootOrder: 66
   m_LocalEulerAnglesHint: {x: 0, y: -293.594, z: 0}
 --- !u!65 &951720273
 BoxCollider:
@@ -17873,7 +18648,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wpNumFromParentTEST: 0
+  WPNumber: 67
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -17942,6 +18717,68 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f1c4a61df85dcd47821dc9497adb1e6, type: 3}
+--- !u!1 &972418821
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 972418822}
+  - component: {fileID: 972418826}
+  - component: {fileID: 972418825}
+  m_Layer: 0
+  m_Name: ProgressWaypoint 18
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &972418822
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 972418821}
+  m_LocalRotation: {x: -0, y: -0.9787528, z: -0, w: 0.20504397}
+  m_LocalPosition: {x: 52.17, y: 0, z: 257.32}
+  m_LocalScale: {x: 0.009999999, y: 9.736651, z: 58.688084}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 836994612}
+  m_RootOrder: 17
+  m_LocalEulerAnglesHint: {x: 0, y: -156.336, z: 0}
+--- !u!114 &972418825
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 972418821}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WPNumber: 18
+  CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
+--- !u!65 &972418826
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 972418821}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &978189288 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4040137310881316, guid: 6f1c4a61df85dcd47821dc9497adb1e6,
@@ -18160,7 +18997,7 @@ GameObject:
   - component: {fileID: 1001452426}
   - component: {fileID: 1001452427}
   m_Layer: 0
-  m_Name: ProgressWaypoint (6)
+  m_Name: ProgressWaypoint 15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18174,12 +19011,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1001452424}
   m_LocalRotation: {x: -0, y: -0.9678626, z: -0, w: 0.25147966}
-  m_LocalPosition: {x: 147.30002, y: -1.1199999, z: 232.6}
+  m_LocalPosition: {x: 134.8, y: 0, z: 239.6}
   m_LocalScale: {x: 0.009999999, y: 9.736651, z: 57.307762}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 836994612}
-  m_RootOrder: 6
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: -150.87, z: 0}
 --- !u!65 &1001452426
 BoxCollider:
@@ -18206,7 +19043,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wpNumFromParentTEST: 0
+  WPNumber: 15
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -18216,6 +19053,68 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 641860161}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1004841809
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1004841810}
+  - component: {fileID: 1004841814}
+  - component: {fileID: 1004841813}
+  m_Layer: 0
+  m_Name: ProgressWaypoint 17
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1004841810
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1004841809}
+  m_LocalRotation: {x: -0, y: -0.9787528, z: -0, w: 0.20504397}
+  m_LocalPosition: {x: 81.22, y: 0, z: 251.22}
+  m_LocalScale: {x: 0.009999999, y: 9.736651, z: 58.25298}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 836994612}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 0, y: -156.336, z: 0}
+--- !u!114 &1004841813
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1004841809}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WPNumber: 17
+  CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
+--- !u!65 &1004841814
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1004841809}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1005152562
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18335,7 +19234,7 @@ GameObject:
   - component: {fileID: 1026941925}
   - component: {fileID: 1026941926}
   m_Layer: 0
-  m_Name: ProgressWaypoint (11)
+  m_Name: ProgressWaypoint 42
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18349,12 +19248,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1026941923}
   m_LocalRotation: {x: -0, y: -0.20825925, z: -0, w: -0.9780737}
-  m_LocalPosition: {x: -279.1, y: -1.1199999, z: 157.6}
+  m_LocalPosition: {x: -279.1, y: 0, z: 157.6}
   m_LocalScale: {x: 0.01, y: 9.736651, z: 32.139915}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 836994612}
-  m_RootOrder: 11
+  m_RootOrder: 41
   m_LocalEulerAnglesHint: {x: 0, y: -335.95898, z: 0}
 --- !u!65 &1026941925
 BoxCollider:
@@ -18381,7 +19280,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wpNumFromParentTEST: 0
+  WPNumber: 42
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -18693,7 +19592,7 @@ GameObject:
   - component: {fileID: 1053554620}
   - component: {fileID: 1053554621}
   m_Layer: 0
-  m_Name: ProgressWaypoint (12)
+  m_Name: ProgressWaypoint 43
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18707,12 +19606,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1053554618}
   m_LocalRotation: {x: -0, y: -0.20825925, z: -0, w: -0.9780737}
-  m_LocalPosition: {x: -243.5, y: -1.1199999, z: 141.7}
+  m_LocalPosition: {x: -243.5, y: 0, z: 141.7}
   m_LocalScale: {x: 0.01, y: 9.736651, z: 32.139915}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 836994612}
-  m_RootOrder: 12
+  m_RootOrder: 42
   m_LocalEulerAnglesHint: {x: 0, y: -335.95898, z: 0}
 --- !u!65 &1053554620
 BoxCollider:
@@ -18739,7 +19638,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wpNumFromParentTEST: 0
+  WPNumber: 43
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -19508,6 +20407,68 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f1c4a61df85dcd47821dc9497adb1e6, type: 3}
+--- !u!1 &1101712678
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1101712679}
+  - component: {fileID: 1101712683}
+  - component: {fileID: 1101712682}
+  m_Layer: 0
+  m_Name: ProgressWaypoint 30
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1101712679
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1101712678}
+  m_LocalRotation: {x: -0, y: -0.9956352, z: -0, w: 0.093330085}
+  m_LocalPosition: {x: -233.44, y: 0, z: 310.59}
+  m_LocalScale: {x: 0.009999999, y: 9.736651, z: 52.667595}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 836994612}
+  m_RootOrder: 29
+  m_LocalEulerAnglesHint: {x: 0, y: -169.29, z: 0}
+--- !u!114 &1101712682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1101712678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WPNumber: 30
+  CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
+--- !u!65 &1101712683
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1101712678}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1107218302
 GameObject:
   m_ObjectHideFlags: 0
@@ -19600,7 +20561,7 @@ GameObject:
   - component: {fileID: 1109328037}
   - component: {fileID: 1109328038}
   m_Layer: 0
-  m_Name: ProgressWaypoint (26)
+  m_Name: ProgressWaypoint 57
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19614,12 +20575,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1109328035}
   m_LocalRotation: {x: -0, y: -0.40054613, z: -0, w: 0.91627663}
-  m_LocalPosition: {x: -417.3, y: -1.1199999, z: 65.1}
+  m_LocalPosition: {x: -417.3, y: 0, z: 65.1}
   m_LocalScale: {x: 0.01, y: 9.736651, z: 41.195057}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 836994612}
-  m_RootOrder: 26
+  m_RootOrder: 56
   m_LocalEulerAnglesHint: {x: 0, y: -47.225, z: 0}
 --- !u!65 &1109328037
 BoxCollider:
@@ -19646,7 +20607,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wpNumFromParentTEST: 0
+  WPNumber: 57
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -19881,7 +20842,7 @@ GameObject:
   - component: {fileID: 1117376252}
   - component: {fileID: 1117376253}
   m_Layer: 0
-  m_Name: ProgressWaypoint (18)
+  m_Name: ProgressWaypoint 49
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19895,12 +20856,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1117376250}
   m_LocalRotation: {x: -0, y: -0.9999976, z: -0, w: 0.0021972538}
-  m_LocalPosition: {x: -219.3, y: -1.1199999, z: 6.4000015}
-  m_LocalScale: {x: 0.01, y: 9.736651, z: 32.13992}
+  m_LocalPosition: {x: -219.3, y: 0, z: 7.22}
+  m_LocalScale: {x: 0.01, y: 9.736651, z: 29.809265}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 836994612}
-  m_RootOrder: 18
+  m_RootOrder: 48
   m_LocalEulerAnglesHint: {x: 0, y: -179.748, z: 0}
 --- !u!65 &1117376252
 BoxCollider:
@@ -19927,7 +20888,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wpNumFromParentTEST: 0
+  WPNumber: 49
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -20436,9 +21397,8 @@ GameObject:
   - component: {fileID: 1154756213}
   - component: {fileID: 1154756214}
   - component: {fileID: 1154756215}
-  - component: {fileID: 1154756216}
   m_Layer: 0
-  m_Name: ProgressWaypoint (13)
+  m_Name: ProgressWaypoint 44
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20452,12 +21412,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1154756212}
   m_LocalRotation: {x: -0, y: -0.20825925, z: -0, w: -0.9780737}
-  m_LocalPosition: {x: -206.9, y: -1.1199999, z: 125.4}
-  m_LocalScale: {x: 0.01, y: 9.736651, z: 32.139915}
+  m_LocalPosition: {x: -206.9, y: 0, z: 125.4}
+  m_LocalScale: {x: 0.01, y: 9.736651, z: 35.926}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 836994612}
-  m_RootOrder: 13
+  m_RootOrder: 43
   m_LocalEulerAnglesHint: {x: 0, y: -335.95898, z: 0}
 --- !u!65 &1154756214
 BoxCollider:
@@ -20484,22 +21444,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wpNumFromParentTEST: 0
+  WPNumber: 44
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
---- !u!114 &1154756216
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1154756212}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d4b9ba220591dda4980ea9e4ee9fe971, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1166709354
 GameObject:
   m_ObjectHideFlags: 0
@@ -20785,7 +21733,7 @@ GameObject:
   - component: {fileID: 1185521318}
   - component: {fileID: 1185521319}
   m_Layer: 0
-  m_Name: ProgressWaypoint (44)
+  m_Name: ProgressWaypoint 75
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20799,12 +21747,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1185521316}
   m_LocalRotation: {x: -0, y: 0.07713759, z: -0, w: -0.9970205}
-  m_LocalPosition: {x: -149.89, y: -1.1199999, z: -37.5}
-  m_LocalScale: {x: 0.01, y: 9.736651, z: 52.861893}
+  m_LocalPosition: {x: -150.86, y: 0, z: -31.31}
+  m_LocalScale: {x: 0.01, y: 9.736651, z: 38.896328}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 836994612}
-  m_RootOrder: 44
+  m_RootOrder: 74
   m_LocalEulerAnglesHint: {x: 0, y: -368.848, z: 0}
 --- !u!65 &1185521318
 BoxCollider:
@@ -20831,7 +21779,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wpNumFromParentTEST: 0
+  WPNumber: 75
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -21465,7 +22413,7 @@ GameObject:
   - component: {fileID: 1261526074}
   - component: {fileID: 1261526075}
   m_Layer: 0
-  m_Name: ProgressWaypoint (8)
+  m_Name: ProgressWaypoint 37
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -21479,12 +22427,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1261526072}
   m_LocalRotation: {x: -0, y: -0.781621, z: -0, w: -0.62375367}
-  m_LocalPosition: {x: -373, y: -1.1199999, z: 271.6}
+  m_LocalPosition: {x: -373, y: 0, z: 271.6}
   m_LocalScale: {x: 0.009999999, y: 9.736651, z: 32.139915}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 836994612}
-  m_RootOrder: 8
+  m_RootOrder: 36
   m_LocalEulerAnglesHint: {x: 0, y: -257.182, z: 0}
 --- !u!65 &1261526074
 BoxCollider:
@@ -21511,7 +22459,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wpNumFromParentTEST: 0
+  WPNumber: 37
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -21533,6 +22481,130 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1209423835}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1268550871
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1268550872}
+  - component: {fileID: 1268550876}
+  - component: {fileID: 1268550875}
+  m_Layer: 0
+  m_Name: ProgressWaypoint 4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1268550872
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1268550871}
+  m_LocalRotation: {x: -0, y: -0.10729605, z: -0, w: 0.9942272}
+  m_LocalPosition: {x: 95.41, y: 0, z: 17.89}
+  m_LocalScale: {x: 0.01, y: 9.736651, z: 32.833874}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 836994612}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: -12.319, z: 0}
+--- !u!114 &1268550875
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1268550871}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WPNumber: 4
+  CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
+--- !u!65 &1268550876
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1268550871}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &1274325755
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1274325756}
+  - component: {fileID: 1274325760}
+  - component: {fileID: 1274325759}
+  m_Layer: 0
+  m_Name: ProgressWaypoint 5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1274325756
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1274325755}
+  m_LocalRotation: {x: -0, y: -0.10729605, z: -0, w: 0.9942272}
+  m_LocalPosition: {x: 121.54, y: 0, z: 23}
+  m_LocalScale: {x: 0.01, y: 9.736651, z: 32.638966}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 836994612}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: -12.319, z: 0}
+--- !u!114 &1274325759
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1274325755}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WPNumber: 5
+  CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
+--- !u!65 &1274325760
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1274325755}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &1275313378 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4040137310881316, guid: 6f1c4a61df85dcd47821dc9497adb1e6,
@@ -21610,6 +22682,68 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 395742785}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1293186129
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1293186130}
+  - component: {fileID: 1293186134}
+  - component: {fileID: 1293186133}
+  m_Layer: 0
+  m_Name: ProgressWaypoint 38
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1293186130
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1293186129}
+  m_LocalRotation: {x: -0, y: -0.71616, z: -0, w: -0.69793624}
+  m_LocalPosition: {x: -375.63, y: 0, z: 251.05}
+  m_LocalScale: {x: 0.009999999, y: 9.736651, z: 32.139915}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 836994612}
+  m_RootOrder: 37
+  m_LocalEulerAnglesHint: {x: 0, y: -268.523, z: 0}
+--- !u!114 &1293186133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1293186129}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WPNumber: 38
+  CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
+--- !u!65 &1293186134
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1293186129}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1296020703
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21687,7 +22821,7 @@ GameObject:
   - component: {fileID: 1307630821}
   - component: {fileID: 1307630822}
   m_Layer: 0
-  m_Name: ProgressWaypoint (24)
+  m_Name: ProgressWaypoint 55
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -21701,12 +22835,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1307630819}
   m_LocalRotation: {x: -0, y: -0.99649054, z: -0, w: -0.08370556}
-  m_LocalPosition: {x: -378.2, y: -1.1199999, z: 26.599998}
+  m_LocalPosition: {x: -377.86, y: 0, z: 24.58}
   m_LocalScale: {x: 0.010000001, y: 9.736651, z: 56.162315}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 836994612}
-  m_RootOrder: 24
+  m_RootOrder: 54
   m_LocalEulerAnglesHint: {x: 0, y: -189.603, z: 0}
 --- !u!65 &1307630821
 BoxCollider:
@@ -21733,7 +22867,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wpNumFromParentTEST: 0
+  WPNumber: 55
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -22148,6 +23282,68 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 944436850}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1326232762
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1326232763}
+  - component: {fileID: 1326232767}
+  - component: {fileID: 1326232766}
+  m_Layer: 0
+  m_Name: ProgressWaypoint 6
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1326232763
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1326232762}
+  m_LocalRotation: {x: -0, y: -0.10729605, z: -0, w: 0.9942272}
+  m_LocalPosition: {x: 146.51, y: 0, z: 28.08}
+  m_LocalScale: {x: 0.01, y: 9.736651, z: 31.38395}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 836994612}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: -12.319, z: 0}
+--- !u!114 &1326232766
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1326232762}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WPNumber: 6
+  CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
+--- !u!65 &1326232767
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1326232762}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1329122911
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22557,6 +23753,68 @@ Transform:
   m_Father: {fileID: 328582812}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: -176.629, z: 0}
+--- !u!1 &1361978745
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1361978746}
+  - component: {fileID: 1361978750}
+  - component: {fileID: 1361978749}
+  m_Layer: 0
+  m_Name: ProgressWaypoint 9
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1361978746
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1361978745}
+  m_LocalRotation: {x: -0, y: -0.73120886, z: -0, w: 0.6821537}
+  m_LocalPosition: {x: 226.5, y: 0, z: 101.6}
+  m_LocalScale: {x: 0.01, y: 9.736651, z: 144.64378}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 836994612}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: -93.976, z: 0}
+--- !u!114 &1361978749
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1361978745}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WPNumber: 9
+  CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
+--- !u!65 &1361978750
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1361978745}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1363529109
 GameObject:
   m_ObjectHideFlags: 0
@@ -22942,7 +24200,7 @@ GameObject:
   - component: {fileID: 1388283053}
   - component: {fileID: 1388283054}
   m_Layer: 0
-  m_Name: ProgressWaypoint (40)
+  m_Name: ProgressWaypoint 71
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22956,12 +24214,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1388283051}
   m_LocalRotation: {x: -0, y: -0.060946528, z: -0, w: -0.9981411}
-  m_LocalPosition: {x: -353.96, y: -1.1199999, z: -35.449997}
+  m_LocalPosition: {x: -353.96, y: 0, z: -35.449997}
   m_LocalScale: {x: 0.01, y: 9.736651, z: 52.861897}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 836994612}
-  m_RootOrder: 40
+  m_RootOrder: 70
   m_LocalEulerAnglesHint: {x: 0, y: -353.012, z: 0}
 --- !u!65 &1388283053
 BoxCollider:
@@ -22988,7 +24246,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wpNumFromParentTEST: 0
+  WPNumber: 71
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -23347,6 +24605,68 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f1c4a61df85dcd47821dc9497adb1e6, type: 3}
+--- !u!1 &1431918038
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1431918039}
+  - component: {fileID: 1431918043}
+  - component: {fileID: 1431918042}
+  m_Layer: 0
+  m_Name: ProgressWaypoint 25
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1431918039
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1431918038}
+  m_LocalRotation: {x: -0, y: -0.9956352, z: -0, w: 0.093330085}
+  m_LocalPosition: {x: -116.5, y: 0, z: 291.25}
+  m_LocalScale: {x: 0.009999999, y: 9.736651, z: 56.497303}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 836994612}
+  m_RootOrder: 24
+  m_LocalEulerAnglesHint: {x: 0, y: -169.29, z: 0}
+--- !u!114 &1431918042
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1431918038}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WPNumber: 25
+  CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
+--- !u!65 &1431918043
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1431918038}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &1439464744 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4040137310881316, guid: 6f1c4a61df85dcd47821dc9497adb1e6,
@@ -23365,7 +24685,7 @@ GameObject:
   - component: {fileID: 1440844821}
   - component: {fileID: 1440844822}
   m_Layer: 0
-  m_Name: ProgressWaypoint (45)
+  m_Name: ProgressWaypoint 76
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23379,12 +24699,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1440844819}
   m_LocalRotation: {x: -0, y: 0.07713759, z: -0, w: -0.9970205}
-  m_LocalPosition: {x: -115.6, y: -1.1199999, z: -30.300003}
-  m_LocalScale: {x: 0.01, y: 9.736651, z: 52.861893}
+  m_LocalPosition: {x: -116.19, y: 0, z: -26.5}
+  m_LocalScale: {x: 0.01, y: 9.736651, z: 41.90213}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 836994612}
-  m_RootOrder: 45
+  m_RootOrder: 75
   m_LocalEulerAnglesHint: {x: 0, y: -368.848, z: 0}
 --- !u!65 &1440844821
 BoxCollider:
@@ -23411,7 +24731,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wpNumFromParentTEST: 0
+  WPNumber: 76
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -23707,7 +25027,7 @@ GameObject:
   - component: {fileID: 1491697070}
   - component: {fileID: 1491697071}
   m_Layer: 0
-  m_Name: ProgressWaypoint (41)
+  m_Name: ProgressWaypoint 72
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23721,12 +25041,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1491697068}
   m_LocalRotation: {x: -0, y: -0.060946528, z: -0, w: -0.9981411}
-  m_LocalPosition: {x: -312.07, y: -1.1199999, z: -42}
+  m_LocalPosition: {x: -312.07, y: 0, z: -42}
   m_LocalScale: {x: 0.01, y: 9.736651, z: 52.861897}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 836994612}
-  m_RootOrder: 41
+  m_RootOrder: 71
   m_LocalEulerAnglesHint: {x: 0, y: -353.012, z: 0}
 --- !u!65 &1491697070
 BoxCollider:
@@ -23753,7 +25073,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wpNumFromParentTEST: 0
+  WPNumber: 72
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -24741,7 +26061,7 @@ GameObject:
   - component: {fileID: 1577638791}
   - component: {fileID: 1577638792}
   m_Layer: 0
-  m_Name: ProgressWaypoint (19)
+  m_Name: ProgressWaypoint 50
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24755,12 +26075,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1577638789}
   m_LocalRotation: {x: -0, y: -0.9999976, z: -0, w: 0.0021972538}
-  m_LocalPosition: {x: -238.5, y: -1.1199999, z: 0.3999939}
+  m_LocalPosition: {x: -238.5, y: 0, z: -0.42}
   m_LocalScale: {x: 0.01, y: 9.736651, z: 44.16346}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 836994612}
-  m_RootOrder: 19
+  m_RootOrder: 49
   m_LocalEulerAnglesHint: {x: 0, y: -179.748, z: 0}
 --- !u!65 &1577638791
 BoxCollider:
@@ -24787,7 +26107,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wpNumFromParentTEST: 0
+  WPNumber: 50
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -24927,6 +26247,68 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f1c4a61df85dcd47821dc9497adb1e6, type: 3}
+--- !u!1 &1596302491
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1596302492}
+  - component: {fileID: 1596302496}
+  - component: {fileID: 1596302495}
+  m_Layer: 0
+  m_Name: ProgressWaypoint 39
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1596302492
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1596302491}
+  m_LocalRotation: {x: -0, y: -0.63533914, z: -0, w: -0.77223325}
+  m_LocalPosition: {x: -373.74, y: 0, z: 229.66}
+  m_LocalScale: {x: 0.009999999, y: 9.736651, z: 32.139915}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 836994612}
+  m_RootOrder: 38
+  m_LocalEulerAnglesHint: {x: 0, y: -281.11, z: 0}
+--- !u!114 &1596302495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1596302491}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WPNumber: 39
+  CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
+--- !u!65 &1596302496
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1596302491}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &1608498774 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4040137310881316, guid: 6f1c4a61df85dcd47821dc9497adb1e6,
@@ -25315,6 +26697,68 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1642062463
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1642062464}
+  - component: {fileID: 1642062468}
+  - component: {fileID: 1642062467}
+  m_Layer: 0
+  m_Name: ProgressWaypoint 19
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1642062464
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1642062463}
+  m_LocalRotation: {x: -0, y: -0.9787528, z: -0, w: 0.20504397}
+  m_LocalPosition: {x: 31.18, y: 0, z: 261.58}
+  m_LocalScale: {x: 0.009999999, y: 9.736651, z: 62.164764}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 836994612}
+  m_RootOrder: 18
+  m_LocalEulerAnglesHint: {x: 0, y: -156.336, z: 0}
+--- !u!114 &1642062467
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1642062463}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WPNumber: 19
+  CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
+--- !u!65 &1642062468
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1642062463}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1643090997
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25457,6 +26901,68 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 36457605}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1663714533
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1663714534}
+  - component: {fileID: 1663714538}
+  - component: {fileID: 1663714537}
+  m_Layer: 0
+  m_Name: ProgressWaypoint 27
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1663714534
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1663714533}
+  m_LocalRotation: {x: -0, y: -0.9956352, z: -0, w: 0.093330085}
+  m_LocalPosition: {x: -169.74, y: 0, z: 300.28}
+  m_LocalScale: {x: 0.009999999, y: 9.736651, z: 53.244385}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 836994612}
+  m_RootOrder: 26
+  m_LocalEulerAnglesHint: {x: 0, y: -169.29, z: 0}
+--- !u!114 &1663714537
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1663714533}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WPNumber: 27
+  CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
+--- !u!65 &1663714538
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1663714533}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &1664815747 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4040137310881316, guid: 6f1c4a61df85dcd47821dc9497adb1e6,
@@ -25659,7 +27165,7 @@ GameObject:
   - component: {fileID: 1684668667}
   - component: {fileID: 1684668668}
   m_Layer: 0
-  m_Name: ProgressWaypoint (5)
+  m_Name: ProgressWaypoint 12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25673,12 +27179,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1684668665}
   m_LocalRotation: {x: -0, y: -0.73120886, z: -0, w: 0.6821537}
-  m_LocalPosition: {x: 231, y: -1.1199999, z: 166.6}
-  m_LocalScale: {x: 0.01, y: 9.736651, z: 128.09926}
+  m_LocalPosition: {x: 231, y: 0, z: 166.6}
+  m_LocalScale: {x: 0.01, y: 9.736651, z: 102.281044}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 836994612}
-  m_RootOrder: 5
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: -93.976, z: 0}
 --- !u!65 &1684668667
 BoxCollider:
@@ -25705,10 +27211,72 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wpNumFromParentTEST: 0
+  WPNumber: 12
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
+--- !u!1 &1693161353
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1693161354}
+  - component: {fileID: 1693161358}
+  - component: {fileID: 1693161357}
+  m_Layer: 0
+  m_Name: ProgressWaypoint 20
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1693161354
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1693161353}
+  m_LocalRotation: {x: -0, y: -0.9949781, z: -0, w: 0.100093305}
+  m_LocalPosition: {x: 6.63, y: 0, z: 268.99}
+  m_LocalScale: {x: 0.009999999, y: 9.736651, z: 60.5038}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 836994612}
+  m_RootOrder: 19
+  m_LocalEulerAnglesHint: {x: 0, y: -168.511, z: 0}
+--- !u!114 &1693161357
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1693161353}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WPNumber: 20
+  CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
+--- !u!65 &1693161358
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1693161353}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1693359054
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25786,7 +27354,7 @@ GameObject:
   - component: {fileID: 1697272673}
   - component: {fileID: 1697272674}
   m_Layer: 0
-  m_Name: ProgressWaypoint (32)
+  m_Name: ProgressWaypoint 63
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25800,12 +27368,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1697272671}
   m_LocalRotation: {x: -0, y: -0.995486, z: -0, w: -0.09490862}
-  m_LocalPosition: {x: -517.5, y: -1.1199999, z: 207.1}
-  m_LocalScale: {x: 0.009999998, y: 9.736651, z: 41.19505}
+  m_LocalPosition: {x: -518.04, y: 0, z: 209.92}
+  m_LocalScale: {x: 0.009999998, y: 9.736651, z: 33.09116}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 836994612}
-  m_RootOrder: 32
+  m_RootOrder: 62
   m_LocalEulerAnglesHint: {x: 0, y: -190.892, z: 0}
 --- !u!65 &1697272673
 BoxCollider:
@@ -25832,7 +27400,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wpNumFromParentTEST: 0
+  WPNumber: 63
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -26481,7 +28049,7 @@ GameObject:
   - component: {fileID: 1765227151}
   - component: {fileID: 1765227152}
   m_Layer: 0
-  m_Name: ProgressWaypoint (34)
+  m_Name: ProgressWaypoint 65
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26495,12 +28063,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1765227149}
   m_LocalRotation: {x: -0, y: -0.866194, z: -0, w: -0.49970794}
-  m_LocalPosition: {x: -570.8, y: -1.1199999, z: 165.9}
+  m_LocalPosition: {x: -570.8, y: 0, z: 165.9}
   m_LocalScale: {x: 0.009999999, y: 9.736651, z: 73.44772}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 836994612}
-  m_RootOrder: 34
+  m_RootOrder: 64
   m_LocalEulerAnglesHint: {x: 0, y: -239.961, z: 0}
 --- !u!65 &1765227151
 BoxCollider:
@@ -26527,7 +28095,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wpNumFromParentTEST: 0
+  WPNumber: 65
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -26733,7 +28301,7 @@ GameObject:
   - component: {fileID: 1800821342}
   - component: {fileID: 1800821343}
   m_Layer: 0
-  m_Name: ProgressWaypoint (43)
+  m_Name: ProgressWaypoint 74
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26747,12 +28315,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1800821340}
   m_LocalRotation: {x: -0, y: 0.07713759, z: -0, w: -0.9970205}
-  m_LocalPosition: {x: -212.13, y: -1.1199999, z: -48.820007}
-  m_LocalScale: {x: 0.01, y: 9.736651, z: 52.861893}
+  m_LocalPosition: {x: -203.07, y: 0, z: -38.09}
+  m_LocalScale: {x: 0.01, y: 9.736651, z: 33.421955}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 836994612}
-  m_RootOrder: 43
+  m_RootOrder: 73
   m_LocalEulerAnglesHint: {x: 0, y: -368.848, z: 0}
 --- !u!65 &1800821342
 BoxCollider:
@@ -26779,7 +28347,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wpNumFromParentTEST: 0
+  WPNumber: 74
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -26963,6 +28531,68 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 615916008}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1835331543
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1835331544}
+  - component: {fileID: 1835331548}
+  - component: {fileID: 1835331547}
+  m_Layer: 0
+  m_Name: ProgressWaypoint 28
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1835331544
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1835331543}
+  m_LocalRotation: {x: -0, y: -0.9956352, z: -0, w: 0.093330085}
+  m_LocalPosition: {x: -195.07, y: 0, z: 303.75}
+  m_LocalScale: {x: 0.009999999, y: 9.736651, z: 53.338436}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 836994612}
+  m_RootOrder: 27
+  m_LocalEulerAnglesHint: {x: 0, y: -169.29, z: 0}
+--- !u!114 &1835331547
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1835331543}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WPNumber: 28
+  CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
+--- !u!65 &1835331548
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1835331543}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &1837174838 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4040137310881316, guid: 6f1c4a61df85dcd47821dc9497adb1e6,
@@ -27283,7 +28913,7 @@ GameObject:
   - component: {fileID: 1875031266}
   - component: {fileID: 1875031267}
   m_Layer: 0
-  m_Name: ProgressWaypoint (16)
+  m_Name: ProgressWaypoint 47
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27297,12 +28927,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1875031264}
   m_LocalRotation: {x: -0, y: -0.8898728, z: -0, w: -0.45620874}
-  m_LocalPosition: {x: -133.88, y: -1.1199999, z: 31.870003}
-  m_LocalScale: {x: 0.01, y: 9.736651, z: 32.139915}
+  m_LocalPosition: {x: -133.88, y: 0, z: 31.870003}
+  m_LocalScale: {x: 0.01, y: 9.736651, z: 34.590237}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 836994612}
-  m_RootOrder: 16
+  m_RootOrder: 46
   m_LocalEulerAnglesHint: {x: 0, y: -234.285, z: 0}
 --- !u!65 &1875031266
 BoxCollider:
@@ -27329,10 +28959,72 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wpNumFromParentTEST: 0
+  WPNumber: 47
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
+--- !u!1 &1877646342
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1877646343}
+  - component: {fileID: 1877646347}
+  - component: {fileID: 1877646346}
+  m_Layer: 0
+  m_Name: ProgressWaypoint 33
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1877646343
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1877646342}
+  m_LocalRotation: {x: -0, y: -0.9956352, z: -0, w: 0.093330085}
+  m_LocalPosition: {x: -293.26, y: 0, z: 320.62}
+  m_LocalScale: {x: 0.009999999, y: 9.736651, z: 53.574867}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 836994612}
+  m_RootOrder: 32
+  m_LocalEulerAnglesHint: {x: 0, y: -169.29, z: 0}
+--- !u!114 &1877646346
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1877646342}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WPNumber: 33
+  CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
+--- !u!65 &1877646347
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1877646342}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &1884353877 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4040137310881316, guid: 6f1c4a61df85dcd47821dc9497adb1e6,
@@ -27736,6 +29428,68 @@ Transform:
   m_Father: {fileID: 328582812}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: -57.018, z: 0}
+--- !u!1 &1954440795
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1954440796}
+  - component: {fileID: 1954440800}
+  - component: {fileID: 1954440799}
+  m_Layer: 0
+  m_Name: ProgressWaypoint 26
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1954440796
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1954440795}
+  m_LocalRotation: {x: -0, y: -0.9956352, z: -0, w: 0.093330085}
+  m_LocalPosition: {x: -145.05, y: 0, z: 295.52}
+  m_LocalScale: {x: 0.009999999, y: 9.736651, z: 57.96607}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 836994612}
+  m_RootOrder: 25
+  m_LocalEulerAnglesHint: {x: 0, y: -169.29, z: 0}
+--- !u!114 &1954440799
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1954440795}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WPNumber: 26
+  CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
+--- !u!65 &1954440800
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1954440795}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1961762737
 GameObject:
   m_ObjectHideFlags: 0
@@ -27938,7 +29692,7 @@ GameObject:
   - component: {fileID: 1997446768}
   - component: {fileID: 1997446769}
   m_Layer: 0
-  m_Name: ProgressWaypoint (15)
+  m_Name: ProgressWaypoint 46
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27952,12 +29706,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1997446766}
   m_LocalRotation: {x: -0, y: -0.483172, z: -0, w: -0.8755255}
-  m_LocalPosition: {x: -126.5, y: -1.1199999, z: 74}
+  m_LocalPosition: {x: -126.5, y: 0, z: 74}
   m_LocalScale: {x: 0.01, y: 9.736651, z: 32.139915}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 836994612}
-  m_RootOrder: 15
+  m_RootOrder: 45
   m_LocalEulerAnglesHint: {x: 0, y: -302.214, z: 0}
 --- !u!65 &1997446768
 BoxCollider:
@@ -27984,7 +29738,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wpNumFromParentTEST: 0
+  WPNumber: 46
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -28000,7 +29754,7 @@ GameObject:
   - component: {fileID: 1998550230}
   - component: {fileID: 1998550231}
   m_Layer: 0
-  m_Name: ProgressWaypoint (31)
+  m_Name: ProgressWaypoint 62
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28014,12 +29768,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1998550228}
   m_LocalRotation: {x: -0, y: -0.97350407, z: -0, w: 0.22866982}
-  m_LocalPosition: {x: -479.3, y: -1.1199999, z: 197.6}
-  m_LocalScale: {x: 0.01, y: 9.736651, z: 41.195057}
+  m_LocalPosition: {x: -478.75, y: 0, z: 198.7}
+  m_LocalScale: {x: 0.01, y: 9.736651, z: 32.403618}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 836994612}
-  m_RootOrder: 31
+  m_RootOrder: 61
   m_LocalEulerAnglesHint: {x: 0, y: -153.562, z: 0}
 --- !u!65 &1998550230
 BoxCollider:
@@ -28046,7 +29800,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wpNumFromParentTEST: 0
+  WPNumber: 62
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -28272,7 +30026,7 @@ GameObject:
   - component: {fileID: 2016634008}
   - component: {fileID: 2016634009}
   m_Layer: 0
-  m_Name: ProgressWaypoint (20)
+  m_Name: ProgressWaypoint 51
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28286,12 +30040,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2016634006}
   m_LocalRotation: {x: -0, y: -0.5476822, z: -0, w: 0.83668643}
-  m_LocalPosition: {x: -248.1, y: -1.1199999, z: 41.199997}
+  m_LocalPosition: {x: -248.1, y: 0, z: 41.199997}
   m_LocalScale: {x: 0.01, y: 9.736651, z: 59.591206}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 836994612}
-  m_RootOrder: 20
+  m_RootOrder: 50
   m_LocalEulerAnglesHint: {x: 0, y: -66.416, z: 0}
 --- !u!65 &2016634008
 BoxCollider:
@@ -28318,7 +30072,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wpNumFromParentTEST: 0
+  WPNumber: 51
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -28420,6 +30174,68 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 349509759}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2048619449
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2048619450}
+  - component: {fileID: 2048619454}
+  - component: {fileID: 2048619453}
+  m_Layer: 0
+  m_Name: ProgressWaypoint 29
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2048619450
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2048619449}
+  m_LocalRotation: {x: -0, y: -0.9956352, z: -0, w: 0.093330085}
+  m_LocalPosition: {x: -215.63, y: 0, z: 307.31}
+  m_LocalScale: {x: 0.009999999, y: 9.736651, z: 55.85676}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 836994612}
+  m_RootOrder: 28
+  m_LocalEulerAnglesHint: {x: 0, y: -169.29, z: 0}
+--- !u!114 &2048619453
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2048619449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WPNumber: 29
+  CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
+--- !u!65 &2048619454
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2048619449}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &2053074059 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4040137310881316, guid: 6f1c4a61df85dcd47821dc9497adb1e6,
@@ -28606,7 +30422,7 @@ GameObject:
   - component: {fileID: 2074175825}
   - component: {fileID: 2074175826}
   m_Layer: 0
-  m_Name: ProgressWaypoint
+  m_Name: ProgressWaypoint 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28620,7 +30436,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2074175823}
   m_LocalRotation: {x: -0, y: -0.10729605, z: -0, w: 0.9942272}
-  m_LocalPosition: {x: 20.4, y: -1.1199999, z: 2.9}
+  m_LocalPosition: {x: 9.7, y: 0, z: 0.6}
   m_LocalScale: {x: 0.01, y: 9.736651, z: 40.021786}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -28652,7 +30468,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wpNumFromParentTEST: 0
+  WPNumber: 1
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -28733,7 +30549,7 @@ GameObject:
   - component: {fileID: 2079088749}
   - component: {fileID: 2079088750}
   m_Layer: 0
-  m_Name: ProgressWaypoint (14)
+  m_Name: ProgressWaypoint 45
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28747,12 +30563,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2079088747}
   m_LocalRotation: {x: -0, y: -0.28757155, z: -0, w: -0.9577592}
-  m_LocalPosition: {x: -161.1, y: -1.1199999, z: 99}
+  m_LocalPosition: {x: -161.1, y: 0, z: 99}
   m_LocalScale: {x: 0.01, y: 9.736651, z: 32.139915}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 836994612}
-  m_RootOrder: 14
+  m_RootOrder: 44
   m_LocalEulerAnglesHint: {x: 0, y: -326.575, z: 0}
 --- !u!65 &2079088749
 BoxCollider:
@@ -28779,7 +30595,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1af17a2c736c3354aa16fa33711bc553, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wpNumFromParentTEST: 0
+  WPNumber: 45
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
