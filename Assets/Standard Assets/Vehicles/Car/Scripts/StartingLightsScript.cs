@@ -10,6 +10,8 @@ public class StartingLightsScript : MonoBehaviour
     public GameObject YlightOn;
     public GameObject GlightOff;
     public GameObject GlightOn;
+    public AudioSource Beep1;
+    public AudioSource Beep2;
 
     void Start(){
         RlightOff.SetActive(true);
@@ -26,14 +28,17 @@ public class StartingLightsScript : MonoBehaviour
         yield return new WaitForSeconds(1f);
         RlightOff.SetActive(false);
         RlightOn.SetActive(true);
+        Beep2.Play();
         yield return new WaitForSeconds(1f);
         RlightOff.SetActive(true);
         RlightOn.SetActive(false);
+        Beep2.Play();
         YlightOff.SetActive(false);
         YlightOn.SetActive(true);
         yield return new WaitForSeconds(1f);
         YlightOff.SetActive(true);
         YlightOn.SetActive(false);
+        Beep2.Play();
         GlightOff.SetActive(false);
         GlightOn.SetActive(true);
         yield return new WaitForSeconds(0.5f);
@@ -41,6 +46,7 @@ public class StartingLightsScript : MonoBehaviour
         yield return new WaitForSeconds(0.5f);
         GlightOff.SetActive(true);
         GlightOn.SetActive(false);
+        Beep1.Play();
 
     }
 }
