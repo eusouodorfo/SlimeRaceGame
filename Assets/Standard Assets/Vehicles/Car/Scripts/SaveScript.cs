@@ -38,6 +38,9 @@ public class SaveScript : MonoBehaviour
     public static bool HalfWayActivated = true;
     public static bool WWTextReset = false;
     public static bool RaceStart = false;
+    public static int MaxLaps;
+    public static bool Raceover = false;
+    public static int PlayerPosition;
    
     void Start()
     {
@@ -47,26 +50,32 @@ public class SaveScript : MonoBehaviour
 
     void Update()
     {
-        if(LapChange == true){
+
+        if(Raceover == false){
+
+            if(LapChange == true){
             LapChange = false;
             LapTimeMinutes = 0f;
             LapTimeSeconds = 0f;
             GameTime = 0f;
-        }
+            }
 
-        if(LapNumber >= 1){
+            if(LapNumber >= 1){
             LapTimeSeconds = LapTimeSeconds + 1 * Time.deltaTime;
             RaceTimeSeconds = RaceTimeSeconds + 1 * Time.deltaTime;
             GameTime = GameTime + 1 * Time.deltaTime;
-        }
+            }
 
-        if(LapTimeSeconds > 59){
-            LapTimeSeconds = 0f;
-            LapTimeMinutes++;
+            if(LapTimeSeconds > 59){
+                LapTimeSeconds = 0f;
+                LapTimeMinutes++;
+            }
+
+            if(RaceTimeSeconds > 59){
+                RaceTimeSeconds = 0f;
+                RaceTimeMinutes++;
+            }
         }
-        if(RaceTimeSeconds > 59){
-            RaceTimeSeconds = 0f;
-            RaceTimeMinutes++;
-        }
+        
     }
 }

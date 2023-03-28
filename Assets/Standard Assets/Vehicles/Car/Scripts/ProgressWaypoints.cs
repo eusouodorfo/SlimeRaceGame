@@ -8,6 +8,7 @@ public class ProgressWaypoints : MonoBehaviour
    public int CarTracking = 0;
    public bool PenaltyOption = false;
    public int PenaltyWayPoint;
+   public int Position = 0;
    
    private void OnTriggerEnter(Collider other){
 
@@ -17,6 +18,8 @@ public class ProgressWaypoints : MonoBehaviour
 
             if(CarTracking < WPNumber){
                 other.GetComponent<ProgressTracker>().CurrentWP = WPNumber;
+                Position++;
+                SaveScript.PlayerPosition = Position;
             }
             if(CarTracking > WPNumber){
                 other.GetComponent<ProgressTracker>().LastWPNumber = WPNumber;

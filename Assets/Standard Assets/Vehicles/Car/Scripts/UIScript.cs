@@ -18,6 +18,8 @@ public class UIScript : MonoBehaviour
     public Text BestLapTimeSeconds;
     public Text CheckPointTime;
     public Text WrongWayT;
+    public Text TotalCarsText;
+    public Text PlayersPosition;
 
     public GameObject CheckPointDisplay;
     public GameObject NewLapRecord;
@@ -25,6 +27,7 @@ public class UIScript : MonoBehaviour
 
     private float DisplaySpeed;
     public int TotalLaps = 3;
+    public int TotalCars = 1;
  
 
     void Start()
@@ -37,7 +40,10 @@ public class UIScript : MonoBehaviour
         CheckPointDisplay.SetActive(false);
         NewLapRecord.SetActive(false);
         WrongWayText.SetActive(false);
-    }
+        SaveScript.MaxLaps = TotalLaps;
+        TotalCarsText.text = "/" + TotalCars.ToString();
+        PlayersPosition.text = "1";
+        }
 
    
     void Update()
@@ -205,6 +211,9 @@ public class UIScript : MonoBehaviour
         if(SaveScript.WWTextReset == true){
             WrongWayT.text = " ";
         }
+
+        //mostrar posiçao
+        PlayersPosition.text = SaveScript.PlayerPosition.ToString();
     }
 
     IEnumerator CheckPointOff(){

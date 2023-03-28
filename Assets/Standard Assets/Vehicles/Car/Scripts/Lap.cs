@@ -11,13 +11,15 @@ public class Lap : MonoBehaviour
             SaveScript.WWTextReset = true;
             StartCoroutine(WrongWayReset());
 
-            if(SaveScript.HalfWayActivated == true){
+            if(SaveScript.Raceover == false){
 
-                SaveScript.HalfWayActivated = false;
-                SaveScript.LastLapM = SaveScript.LapTimeMinutes;
-                SaveScript.LastLapS = SaveScript.LapTimeSeconds;
-                SaveScript.LapNumber++; 
-                SaveScript.LapChange = true;
+                if(SaveScript.HalfWayActivated == true){
+
+                    SaveScript.HalfWayActivated = false;
+                    SaveScript.LastLapM = SaveScript.LapTimeMinutes;
+                    SaveScript.LastLapS = SaveScript.LapTimeSeconds;
+                    SaveScript.LapNumber++; 
+                    SaveScript.LapChange = true;
 
                 if(SaveScript.LapNumber == 2){
                     SaveScript.BestLapTimeM = SaveScript.LastLapM;
@@ -31,7 +33,9 @@ public class Lap : MonoBehaviour
                 SaveScript.LastCheckPoint1 = SaveScript.ThisCheckPoint1;
                 SaveScript.LastCheckPoint2 = SaveScript.ThisCheckPoint2;
                 SaveScript.LastCheckPoint3 = SaveScript.ThisCheckPoint3;   
+                }
             }
+            
         }
     }
 
