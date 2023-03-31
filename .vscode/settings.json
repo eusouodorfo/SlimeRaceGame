@@ -52,6 +52,6 @@
         "temp/":true,
         "Temp/":true,
         "synthwave84.brightness": 0.9,
-        "synthwave84.disableGlow": true
+        "synthwave84.disableGlow": false
     }
 }
