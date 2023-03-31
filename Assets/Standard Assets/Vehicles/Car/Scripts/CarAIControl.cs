@@ -189,13 +189,19 @@ namespace UnityStandardAssets.Vehicles.Car
             if (col.rigidbody != null)
             {
                 var otherAI = col.rigidbody.GetComponent<CarAIControl>();
-                if (otherAI != null)
+                var PlayerCar = col.rigidbody.GetComponent<CarController>();
+                if (otherAI != null || PlayerCar != null)
                 {
                     // we'll take evasive action for 1 second
                     m_AvoidOtherCarTime = Time.time + 1;
 
                     // but who's in front?...
                     if (Vector3.Angle(transform.forward, otherAI.transform.position - transform.position) < 90)
+                    {
+                        // the other ai is in front, so it is only good manners that we ought to brake...
+                        m_AvoidOtherCarSlowdown = 0.5f;
+                    }
+                    if (Vector3.Angle(transform.forward, PlayerCar.transform.position - transform.position) < 90)
                     {
                         // the other ai is in front, so it is only good manners that we ought to brake...
                         m_AvoidOtherCarSlowdown = 0.5f;
