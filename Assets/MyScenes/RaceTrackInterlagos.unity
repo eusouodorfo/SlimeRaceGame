@@ -33015,11 +33015,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: F1AI1
       objectReference: {fileID: 0}
+    - target: {fileID: 4371467982506591447, guid: 4f5ad921334040f408da3929d37a8a8e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4371467982516318509, guid: 4f5ad921334040f408da3929d37a8a8e,
         type: 3}
       propertyPath: circuit
       value: 
       objectReference: {fileID: 45229603}
+    - target: {fileID: 4371467982516318512, guid: 4f5ad921334040f408da3929d37a8a8e,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4371467982516318512, guid: 4f5ad921334040f408da3929d37a8a8e,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4371467982516318513, guid: 4f5ad921334040f408da3929d37a8a8e,
         type: 3}
       propertyPath: dopplerLevel
