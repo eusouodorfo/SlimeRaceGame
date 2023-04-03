@@ -34,8 +34,30 @@ public class Lap : MonoBehaviour
                 SaveScript.LastCheckPoint2 = SaveScript.ThisCheckPoint2;
                 SaveScript.LastCheckPoint3 = SaveScript.ThisCheckPoint3;   
                 }
-            }
-            
+            }  
+        }
+
+        //contador de voltas para cada carro
+        if(other.gameObject.CompareTag("ProgressAI1")){
+            SaveScript.AICar1LapNumber++;
+        }
+        if(other.gameObject.CompareTag("ProgressAI2")){
+            SaveScript.AICar2LapNumber++;
+        }
+        if(other.gameObject.CompareTag("ProgressAI3")){
+            SaveScript.AICar3LapNumber++;
+        }
+        if(other.gameObject.CompareTag("ProgressAI4")){
+            SaveScript.AICar4LapNumber++;
+        }
+        if(other.gameObject.CompareTag("ProgressAI5")){
+            SaveScript.AICar5LapNumber++;
+        }
+        if(other.gameObject.CompareTag("ProgressAI6")){
+            SaveScript.AICar6LapNumber++;
+        }
+        if(other.gameObject.CompareTag("ProgressAI7")){
+            SaveScript.AICar7LapNumber++;
         }
     }
 
