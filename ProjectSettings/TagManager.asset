@@ -13,6 +13,13 @@ TagManager:
   - Progress
   - AICar
   - ProgressAi
+  - ProgressAI1
+  - ProgressAI2
+  - ProgressAI3
+  - ProgressAI4
+  - ProgressAI5
+  - ProgressAI6
+  - ProgressAI7
   layers:
   - Default
   - TransparentFX

@@ -5,6 +5,7 @@ using UnityEngine;
 public class FinishLine : MonoBehaviour
 {
     private void OnTriggerEnter(Collider other){
+        SaveScript.FinishPositionID++;
         SaveScript.Raceover = true;
         Time.timeScale = 0.2f;
     }
