@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FInishLineAI : MonoBehaviour
+public class FinishLineAI : MonoBehaviour
 {
     public bool AI1;
     public bool AI2;

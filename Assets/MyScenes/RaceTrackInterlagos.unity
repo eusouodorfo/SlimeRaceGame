@@ -9745,6 +9745,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 782f9d08525fb8c468818c9071eed155, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Leaderboard: {fileID: 262910116}
+  PlayerName: PlayerName
 --- !u!1 &494231760
 GameObject:
   m_ObjectHideFlags: 0
@@ -23270,6 +23272,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1233203033}
+  - component: {fileID: 1233203034}
   m_Layer: 5
   m_Name: StatsAI4
   m_TagString: Untagged
@@ -23301,6 +23304,28 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 1920, y: 1080}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1233203034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1233203032}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33c3b745a6398f147b6f48be21d02752, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Slot1: {fileID: 1553360317}
+  Slot2: {fileID: 1336998129}
+  Slot3: {fileID: 1182072573}
+  Slot4: {fileID: 2124668524}
+  Slot5: {fileID: 1551497627}
+  Slot6: {fileID: 126999441}
+  Slot7: {fileID: 1663793301}
+  Stats: {fileID: 1233203032}
+  AICarNumber: 4
+  Player: 0
 --- !u!1001 &1234262772
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24525,6 +24550,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1328658415}
+  - component: {fileID: 1328658416}
   m_Layer: 5
   m_Name: StatsAI6
   m_TagString: Untagged
@@ -24556,6 +24582,28 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 1920, y: 1080}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1328658416
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1328658414}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33c3b745a6398f147b6f48be21d02752, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Slot1: {fileID: 1553360317}
+  Slot2: {fileID: 1336998129}
+  Slot3: {fileID: 1182072573}
+  Slot4: {fileID: 2124668524}
+  Slot5: {fileID: 1551497627}
+  Slot6: {fileID: 126999441}
+  Slot7: {fileID: 1663793301}
+  Stats: {fileID: 1328658414}
+  AICarNumber: 6
+  Player: 0
 --- !u!1001 &1329122911
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24857,6 +24905,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1337635401}
+  - component: {fileID: 1337635402}
   m_Layer: 5
   m_Name: StatsAI7
   m_TagString: Untagged
@@ -24888,6 +24937,28 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 1920, y: 1080}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1337635402
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1337635400}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33c3b745a6398f147b6f48be21d02752, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Slot1: {fileID: 1553360317}
+  Slot2: {fileID: 1336998129}
+  Slot3: {fileID: 1182072573}
+  Slot4: {fileID: 2124668524}
+  Slot5: {fileID: 1551497627}
+  Slot6: {fileID: 126999441}
+  Slot7: {fileID: 1663793301}
+  Stats: {fileID: 1337635400}
+  AICarNumber: 7
+  Player: 0
 --- !u!1 &1338729719
 GameObject:
   m_ObjectHideFlags: 0
@@ -27099,6 +27170,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1475837680}
+  - component: {fileID: 1475837681}
   m_Layer: 5
   m_Name: StatsAI3
   m_TagString: Untagged
@@ -27130,6 +27202,28 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 1920, y: 1080}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1475837681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1475837679}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33c3b745a6398f147b6f48be21d02752, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Slot1: {fileID: 1553360317}
+  Slot2: {fileID: 1336998129}
+  Slot3: {fileID: 1182072573}
+  Slot4: {fileID: 2124668524}
+  Slot5: {fileID: 1551497627}
+  Slot6: {fileID: 126999441}
+  Slot7: {fileID: 1663793301}
+  Stats: {fileID: 1475837679}
+  AICarNumber: 3
+  Player: 0
 --- !u!1 &1482765953
 GameObject:
   m_ObjectHideFlags: 0
@@ -28476,6 +28570,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1555192386}
+  - component: {fileID: 1555192387}
   m_Layer: 5
   m_Name: StatsAI1
   m_TagString: Untagged
@@ -28507,6 +28602,28 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 1920, y: 1080}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1555192387
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1555192385}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33c3b745a6398f147b6f48be21d02752, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Slot1: {fileID: 1553360317}
+  Slot2: {fileID: 1336998129}
+  Slot3: {fileID: 1182072573}
+  Slot4: {fileID: 2124668524}
+  Slot5: {fileID: 1551497627}
+  Slot6: {fileID: 126999441}
+  Slot7: {fileID: 1663793301}
+  Stats: {fileID: 1555192385}
+  AICarNumber: 1
+  Player: 0
 --- !u!1 &1557930109
 GameObject:
   m_ObjectHideFlags: 0
@@ -32385,6 +32502,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1781888700}
+  - component: {fileID: 1781888701}
   m_Layer: 5
   m_Name: StatsAI2
   m_TagString: Untagged
@@ -32416,6 +32534,28 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 1920, y: 1080}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1781888701
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1781888699}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33c3b745a6398f147b6f48be21d02752, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Slot1: {fileID: 1553360317}
+  Slot2: {fileID: 1336998129}
+  Slot3: {fileID: 1182072573}
+  Slot4: {fileID: 2124668524}
+  Slot5: {fileID: 1551497627}
+  Slot6: {fileID: 126999441}
+  Slot7: {fileID: 1663793301}
+  Stats: {fileID: 1781888699}
+  AICarNumber: 2
+  Player: 0
 --- !u!1 &1782464937
 GameObject:
   m_ObjectHideFlags: 0
@@ -32425,6 +32565,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1782464938}
+  - component: {fileID: 1782464939}
   m_Layer: 5
   m_Name: StatsAI5
   m_TagString: Untagged
@@ -32456,6 +32597,28 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 1920, y: 1080}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1782464939
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1782464937}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33c3b745a6398f147b6f48be21d02752, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Slot1: {fileID: 1553360317}
+  Slot2: {fileID: 1336998129}
+  Slot3: {fileID: 1182072573}
+  Slot4: {fileID: 2124668524}
+  Slot5: {fileID: 1551497627}
+  Slot6: {fileID: 126999441}
+  Slot7: {fileID: 1663793301}
+  Stats: {fileID: 1782464937}
+  AICarNumber: 5
+  Player: 0
 --- !u!1 &1784248667
 GameObject:
   m_ObjectHideFlags: 0
@@ -32653,6 +32816,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1809396781}
+  - component: {fileID: 1809396782}
   m_Layer: 5
   m_Name: StatsPlayer
   m_TagString: Untagged
@@ -32684,6 +32848,28 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 1920, y: 1080}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1809396782
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1809396780}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33c3b745a6398f147b6f48be21d02752, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Slot1: {fileID: 1553360317}
+  Slot2: {fileID: 1336998129}
+  Slot3: {fileID: 1182072573}
+  Slot4: {fileID: 2124668524}
+  Slot5: {fileID: 1551497627}
+  Slot6: {fileID: 126999441}
+  Slot7: {fileID: 1663793301}
+  Stats: {fileID: 1809396780}
+  AICarNumber: 0
+  Player: 1
 --- !u!1 &1810108895 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: d0131e3e08af6db41ae709a2c812c728,

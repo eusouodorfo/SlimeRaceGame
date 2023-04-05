@@ -4,9 +4,21 @@ using UnityEngine;
 
 public class FinishLine : MonoBehaviour
 {
+
+    public GameObject Leaderboard;
+    public string PlayerName;
+    public static int PlayerFinishPosition;
+    public static string PName;
+
+    private void Start(){
+        PName = PlayerName;
+    }
+
     private void OnTriggerEnter(Collider other){
         SaveScript.FinishPositionID++;
+        PlayerFinishPosition = SaveScript.FinishPositionID;
         SaveScript.Raceover = true;
         Time.timeScale = 0.2f;
+        Leaderboard.SetActive(true);
     }
 }
