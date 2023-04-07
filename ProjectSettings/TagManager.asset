@@ -20,6 +20,13 @@ TagManager:
   - ProgressAI5
   - ProgressAI6
   - ProgressAI7
+  - AI1
+  - AI2
+  - A3
+  - A4
+  - A5
+  - A6
+  - A7
   layers:
   - Default
   - TransparentFX

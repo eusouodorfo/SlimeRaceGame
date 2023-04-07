@@ -44,6 +44,7 @@ public class CarPositions : MonoBehaviour
         if(Player == true){
             Pos = FinishLine.PlayerFinishPosition;
         }
+    }
 
     void Update(){
 
@@ -71,7 +72,5 @@ public class CarPositions : MonoBehaviour
         if(Pos == 7){
             Stats.transform.position = Slot7.transform.position;
         }
-    }
-
-    }
+    }    
 }
