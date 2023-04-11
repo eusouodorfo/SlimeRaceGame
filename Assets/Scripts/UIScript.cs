@@ -32,6 +32,7 @@ public class UIScript : MonoBehaviour
 
     void Start()
     {
+        TotalLaps = UniversalSave.LapCount;
         SpeedRing.fillAmount = 0;
         SpeedText.text = "0";
         GearText.text = "1";
