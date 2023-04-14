@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class UIScript : MonoBehaviour
 {
@@ -28,6 +29,7 @@ public class UIScript : MonoBehaviour
     private float DisplaySpeed;
     private int TotalLaps = 3;
     private int TotalCars = 1;
+    public bool RaceTrack = true;
 
     public GameObject F1Opponent1;
     public GameObject F1Opponent2;
@@ -36,6 +38,10 @@ public class UIScript : MonoBehaviour
     public GameObject F1Opponent5;
     public GameObject F1Opponent6;
     public GameObject F1Opponent7;
+
+    public GameObject QuitPanel;
+
+    private bool IsPaused = false;
 
     void Start()
     {
@@ -52,7 +58,10 @@ public class UIScript : MonoBehaviour
         SaveScript.MaxLaps = TotalLaps;
         TotalCarsText.text = "/" + TotalCars.ToString();
         PlayersPosition.text = "1";
-        SetCarVisibility();
+        if(RaceTrack == true){
+            SetCarVisibility();
+        }    
+        QuitPanel.SetActive(false);
     }
 
     void SetCarVisibility(){
@@ -306,6 +315,14 @@ public class UIScript : MonoBehaviour
 
         //mostrar posiçao
         PlayersPosition.text = SaveScript.PlayerPosition.ToString();
+
+        if(Input.GetKeyDown(KeyCode.Escape)){
+            QuitPanel.SetActive(true);
+            if(!IsPaused){
+                Time.timeScale = 0;
+                IsPaused = true;
+            }
+        }
     }
 
     IEnumerator CheckPointOff(){
@@ -317,5 +334,15 @@ public class UIScript : MonoBehaviour
         yield return new WaitForSeconds(2);
         SaveScript.NewRecord = false;
         NewLapRecord.SetActive(false);
+    }
+
+    public void ReturnToMenu(){
+        SceneManager.LoadScene(1);
+    }
+
+    public void QuitClose(){
+        QuitPanel.SetActive(false);
+        Time.timeScale = 1;
+        IsPaused = false;
     }
 }

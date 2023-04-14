@@ -24,7 +24,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 120
+  controlID: 22667
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -142,7 +142,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 96
+  controlID: 22668
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -167,7 +167,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 97
+  controlID: 22669
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -225,10 +225,10 @@ MonoBehaviour:
     m_SaveData: []
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 0}
+      scrollPos: {x: 0, y: 205}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 4ec9ffff44dfffff48dfffff52e0ffff54e0ffffa0e3ffffa2e3ffff62e4ffff64e4ffffd4e5ffffd6e5ffffb4ebffffc2ebffff7eecffff8cecffffbaf2ffff86f4ffff12fbffff9e7c0000
+      m_ExpandedIDs: 00ddfeff742fffffe84ffffffa51ffffe263ffff4ec9ffff44dfffff48dfffff52e0ffff54e0ffffa0e3ffffa2e3ffff62e4ffff64e4ffffd4e5ffffd6e5ffffb4ebffffc2ebffff7eecffff8cecffffbaf2ffff86f4ffff12fbffff9e7c0000acb60000a6c10000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -538,9 +538,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 176.86325, y: -8.527724, z: -134.16553}
+    m_Target: {x: 150.11916, y: -16.269575, z: -112.66228}
     speed: 2
-    m_Value: {x: 176.86325, y: -8.527724, z: -134.16553}
+    m_Value: {x: 150.11916, y: -16.269575, z: -112.66228}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -587,9 +587,9 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.09545828, y: 0.66161084, z: -0.085369244, w: 0.7389987}
+    m_Target: {x: 0.25108674, y: 0.23637894, z: -0.0633218, w: 0.9366532}
     speed: 2
-    m_Value: {x: 0.09544643, y: 0.66152877, z: -0.08535865, w: 0.73890704}
+    m_Value: {x: 0.25105557, y: 0.23634958, z: -0.06331393, w: 0.93653685}
   m_Size:
     m_Target: 26.5572
     speed: 2
@@ -687,22 +687,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/MyScenes
+    - Assets/Assets Pre/UI Graphics
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 96
   m_LastFolders:
-  - Assets/MyScenes
+  - Assets/Assets Pre/UI Graphics
   m_LastFoldersGridSize: 96
   m_LastProjectPath: D:\GitHub\RaceGameHDRP\RaceGameHDRP
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: a0750000
-    m_LastClickedID: 30112
-    m_ExpandedIDs: 000000007c7500007e75000080750000827500008475000086750000887500008a750000
+    m_SelectedIDs: 0ec30000
+    m_LastClickedID: 49934
+    m_ExpandedIDs: 000000007c7500007e75000080750000827500008475000086750000887500008a75000094750000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -755,9 +755,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 9e770000
-    m_LastClickedInstanceID: 30622
-    m_HadKeyboardFocusLastEvent: 1
+    m_SelectedInstanceIDs: 1a29ffff
+    m_LastClickedInstanceID: -55014
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -876,8 +876,8 @@ MonoBehaviour:
     m_CachedPref: 266
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
-  m_LastInspectedObjectInstanceID: 30622
-  m_LastVerticalScrollValue: 0
+  m_LastInspectedObjectInstanceID: -55014
+  m_LastVerticalScrollValue: 270
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:

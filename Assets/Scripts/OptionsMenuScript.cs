@@ -16,12 +16,14 @@ public class OptionsMenuScript : MonoBehaviour
     public int RaceTrackSceneNumber;
     public GameObject LoadScreen;
     public GameObject OpponentsOn;
+    public GameObject LapsOn;
 
     public void ModeNext(){
         if(TimeTrial == true){
             Mode.text = "RACE";
             TimeTrial = false;
             OpponentsOn.SetActive(true);
+            LapsOn.SetActive(true);
         }
     }
 
@@ -30,6 +32,7 @@ public class OptionsMenuScript : MonoBehaviour
             Mode.text = "TIME TRIAL";
             TimeTrial = true;
             OpponentsOn.SetActive(false);
+            LapsOn.SetActive(false);
         }
     }
 
@@ -87,7 +90,8 @@ public class OptionsMenuScript : MonoBehaviour
     IEnumerator WaitToLoad(){
         yield return new WaitForSeconds(0.3f);
         LoadScreen.SetActive(true);
-        UniversalSave.LapCount = CurrentLapCount;
+        UniversalSave.LapCount = 1;
+        UniversalSave.OpponentsCount = 0;
         SceneManager.LoadScene(TimeTrialSceneNumber);
     }
 
