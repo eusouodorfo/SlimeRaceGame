@@ -12,6 +12,6 @@ EditorBuildSettings:
     path: Assets/MyScenes/RaceTrackSelection.unity
     guid: 89afcf59237107c47ad8708350a228f4
   - enabled: 1
-    path: Assets/MyScenes/InterlagosCorreta.unity
-    guid: 3ae6fe989b2a7074bb6f4abedb1081d2
+    path: Assets/MyScenes/RaceTrackInterlagos.unity
+    guid: f4111430cdddb734b9eaaa36e0c2e85e
   m_configObjects: {}

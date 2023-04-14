@@ -55,9 +55,10 @@ public class OptionsMenuScript : MonoBehaviour
     }
 
     public void OppCountNext(){
-        if(CurrentOppCount < 6){
+        if(CurrentOppCount < 7){
             CurrentOppCount++;
             OppCount.text = CurrentOppCount + " - OPPONENTS";
+            UniversalSave.OpponentsCount = CurrentOppCount;
         }
     }
 
@@ -65,10 +66,12 @@ public class OptionsMenuScript : MonoBehaviour
         if(CurrentOppCount > 2){
             CurrentOppCount--;
             OppCount.text = CurrentOppCount + " - OPPONENTS";
+            UniversalSave.OpponentsCount = CurrentOppCount;
         }
         else if (CurrentOppCount == 2){
             CurrentOppCount--;
             OppCount.text = CurrentOppCount + " - OPPONENT";
+            UniversalSave.OpponentsCount = CurrentOppCount;
         }
     }
 
@@ -92,6 +95,7 @@ public class OptionsMenuScript : MonoBehaviour
         yield return new WaitForSeconds(0.3f);
         LoadScreen.SetActive(true);
         UniversalSave.LapCount = CurrentLapCount;
+        UniversalSave.OpponentsCount = CurrentOppCount;
         SceneManager.LoadScene(RaceTrackSceneNumber);
     }
 }
