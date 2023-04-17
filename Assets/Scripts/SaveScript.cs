@@ -50,6 +50,13 @@ public class SaveScript : MonoBehaviour
     public static int AICar7LapNumber = 0;
 
     public static int FinishPositionID = 0;
+
+    public static float TimeTrialMinG;
+    public static float TimeTrialSecG;
+    public static float TimeTrialMinS;
+    public static float TimeTrialSecS;
+    public static float TimeTrialMinB;
+    public static float TimeTrialSecB;
    
     void Start()
     {
