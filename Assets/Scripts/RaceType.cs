@@ -26,6 +26,49 @@ public class RaceType : MonoBehaviour
 
     void Update()
     {
-        
+        if(SaveScript.Raceover == true){
+            if(TimeTrial == true){
+
+                //definir tempo gold
+                if(SaveScript.RaceTimeMinutes < GoldMinutes){
+                    Debug.Log("Gold");
+                    SaveScript.Gold = true;
+                }
+                if(SaveScript.RaceTimeMinutes == GoldMinutes && SaveScript.RaceTimeSeconds < GoldSeconds){
+                    Debug.Log("Gold");
+                    SaveScript.Gold = true;
+                }
+
+                //definir tempo silver
+                if(SaveScript.RaceTimeMinutes < SilverMinutes){
+                    if(SaveScript.Gold == false){
+                        Debug.Log("Silver");
+                        SaveScript.Silver = true;
+                    }
+                }
+                if(SaveScript.RaceTimeMinutes == SilverMinutes && SaveScript.RaceTimeSeconds < SilverSeconds){
+                    Debug.Log("Silver");
+                    SaveScript.Silver = true;
+                }
+
+                //definir tempo bronze
+                if(SaveScript.RaceTimeMinutes < BronzeMinutes){
+                    if(SaveScript.Gold == false && SaveScript.Silver == false){
+                        Debug.Log("Bronze");
+                        SaveScript.Bronze = true;
+                    }
+                }
+                if(SaveScript.RaceTimeMinutes == BronzeMinutes && SaveScript.RaceTimeSeconds < BronzeSeconds){
+                    Debug.Log("Bronze");
+                    SaveScript.Bronze = true;
+                }
+
+                else if(SaveScript.Gold == false && SaveScript.Silver == false && SaveScript.Bronze == false){
+                    Debug.Log("Fail");
+                    SaveScript.Fail = true;
+                }
+
+            }
+        }
     }
 }

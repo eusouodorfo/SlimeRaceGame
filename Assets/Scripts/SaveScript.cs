@@ -57,6 +57,12 @@ public class SaveScript : MonoBehaviour
     public static float TimeTrialSecS;
     public static float TimeTrialMinB;
     public static float TimeTrialSecB;
+
+    public static bool Gold = false;
+    public static bool Silver = false;
+    public static bool Bronze = false;
+    public static bool Fail = false;
+
    
     void Start()
     {
@@ -69,6 +75,7 @@ public class SaveScript : MonoBehaviour
 
         if(Raceover == false){
 
+            
             if(LapChange == true){
             LapChange = false;
             LapTimeMinutes = 0f;
