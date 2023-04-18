@@ -14,6 +14,8 @@ public class UITimeTrial : MonoBehaviour
 
     public Text WinMessage;
 
+    public GameObject QuitPanel;
+
     public GameObject TimeTrialObject;
     public GameObject TimeTrialResults;
     public GameObject GoldStar;
@@ -22,10 +24,13 @@ public class UITimeTrial : MonoBehaviour
 
     private bool Winner = false;
 
+    private bool IsPaused = false;
+
     void Start()
     {
         TimeTrialObject.SetActive(true);
         TimeTrialResults.SetActive(false);
+        QuitPanel.SetActive(false);
     }
 
     
@@ -79,6 +84,14 @@ public class UITimeTrial : MonoBehaviour
                 StartCoroutine(WinDisplay());
             }
         }
+
+        if(Input.GetKeyDown(KeyCode.Escape)){
+            QuitPanel.SetActive(true);
+            if(!IsPaused){
+                Time.timeScale = 0;
+                IsPaused = true;
+            }
+        }
     }
 
     IEnumerator WinDisplay(){
@@ -99,6 +112,12 @@ public class UITimeTrial : MonoBehaviour
         if(SaveScript.Fail == true){
             WinMessage.text = "TRY AGAIN!";
         }
+    }
+
+    public void QuitClose(){
+        QuitPanel.SetActive(false);
+        Time.timeScale = 1;
+        IsPaused = false;
     }
 
 }
