@@ -3876,6 +3876,7 @@ GameObject:
   - component: {fileID: 185460205}
   - component: {fileID: 185460204}
   - component: {fileID: 185460203}
+  - component: {fileID: 185460209}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -4039,6 +4040,30 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &185460209
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 185460202}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fff00b825a32f04792eb41c6a5ed7a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TimeTrialMinutesG: {fileID: 923848082}
+  TimeTrialMinutesS: {fileID: 1813236208}
+  TimeTrialMinutesB: {fileID: 441500424}
+  TimeTrialSecondsG: {fileID: 2023448097}
+  TimeTrialSecondsS: {fileID: 2022111302}
+  TimeTrialSecondsB: {fileID: 2017298327}
+  WinMessage: {fileID: 740934866}
+  TimeTrialObject: {fileID: 747071180}
+  TimeTrialResults: {fileID: 740934864}
+  GoldStar: {fileID: 530199494}
+  SilverStar: {fileID: 1877453411}
+  BronzeStar: {fileID: 14222645}
 --- !u!1 &188923857
 GameObject:
   m_ObjectHideFlags: 0

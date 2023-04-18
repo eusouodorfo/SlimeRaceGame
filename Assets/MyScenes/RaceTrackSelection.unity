@@ -2419,10 +2419,11 @@ MonoBehaviour:
   Mode: {fileID: 852877329}
   LapCount: {fileID: 1051990355}
   OppCount: {fileID: 2087290007}
-  TimeTrialSceneNumber: 2
+  TimeTrialSceneNumber: 3
   RaceTrackSceneNumber: 2
   LoadScreen: {fileID: 186062909}
   OpponentsOn: {fileID: 2087290005}
+  LapsOn: {fileID: 0}
 --- !u!1 &1665309833
 GameObject:
   m_ObjectHideFlags: 0
