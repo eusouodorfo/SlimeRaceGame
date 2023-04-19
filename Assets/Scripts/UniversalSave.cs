@@ -31,10 +31,14 @@ public class UniversalSave : MonoBehaviour
     public void SaveStats(){
         PlayerPrefs.SetInt("MyCredits", CreditAmount);
         PlayerPrefs.SetString("PlayerName", PlayerName);
+        PlayerPrefs.SetInt("WonRaces", RaceWon);
+        PlayerPrefs.SetInt("LostRaces", RaceLost);
     }
 
     public void LoadStats(){
         CreditAmount = PlayerPrefs.GetInt("MyCredits");
         PlayerName = PlayerPrefs.GetString("PlayerName");
+        RaceWon = PlayerPrefs.GetInt("WonRaces");
+        RaceLost = PlayerPrefs.GetInt("LostRaces");
     }
 }

@@ -107,22 +107,26 @@ public class UITimeTrial : MonoBehaviour
             GoldStar.SetActive(true);
             Credits.text = GoldCredits.ToString();
             UniversalSave.CreditAmount = UniversalSave.CreditAmount += GoldCredits;
+            UniversalSave.RaceWon++;
         }
         if(SaveScript.Silver == true){
             WinMessage.text = "YOU WON SILVER TIME";
             SilverStar.SetActive(true);
             Credits.text = SilverCredits.ToString();
             UniversalSave.CreditAmount = UniversalSave.CreditAmount += SilverCredits;
+            UniversalSave.RaceWon++;
         }
         if(SaveScript.Bronze == true){
             WinMessage.text = "YOU WON BRONZE TIME";
             BronzeStar.SetActive(true);
             Credits.text = BronzeCredits.ToString();
             UniversalSave.CreditAmount = UniversalSave.CreditAmount += BronzeCredits;
+            UniversalSave.RaceWon++;
         }
         if(SaveScript.Fail == true){
             WinMessage.text = "TRY AGAIN!";
             Credits.text = "0";
+            UniversalSave.RaceLost++;
         }
     }
 
