@@ -9594,7 +9594,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Leaderboard: {fileID: 922195598}
-  PlayerName: Player
 --- !u!1 &496395479
 GameObject:
   m_ObjectHideFlags: 0
@@ -19368,7 +19367,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1045588141}
-  m_LocalRotation: {x: 0.1387411, y: 0.5994232, z: -0.1064721, w: 0.7810931}
+  m_LocalRotation: {x: 0.13874109, y: 0.5994232, z: -0.106472105, w: 0.7810931}
   m_LocalPosition: {x: -15.740601, y: -7.7701592, z: -18.831146}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -21335,7 +21334,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1138092861}
-  m_LocalRotation: {x: 0.1387411, y: 0.5994232, z: -0.1064721, w: 0.7810931}
+  m_LocalRotation: {x: 0.13874109, y: 0.5994232, z: -0.106472105, w: 0.7810931}
   m_LocalPosition: {x: 149.12173, y: 1.5800003, z: -135.2839}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -34672,12 +34671,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TimeTrial: 1
-  GoldMinutes: 0
-  GoldSeconds: 55
+  GoldMinutes: 1
+  GoldSeconds: 10
   SilverMinutes: 1
-  SilverSeconds: 1
+  SilverSeconds: 20
   BronzeMinutes: 1
-  BronzeSeconds: 3
+  BronzeSeconds: 30
 --- !u!1001 &2059683287
 PrefabInstance:
   m_ObjectHideFlags: 0
