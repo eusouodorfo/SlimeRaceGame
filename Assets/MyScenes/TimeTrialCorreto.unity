@@ -3634,12 +3634,16 @@ MonoBehaviour:
   TimeTrialSecondsS: {fileID: 2022111302}
   TimeTrialSecondsB: {fileID: 2017298327}
   WinMessage: {fileID: 740934866}
+  Credits: {fileID: 1980271530}
   QuitPanel: {fileID: 0}
   TimeTrialObject: {fileID: 747071180}
   TimeTrialResults: {fileID: 740934864}
   GoldStar: {fileID: 530199494}
   SilverStar: {fileID: 1877453411}
   BronzeStar: {fileID: 14222645}
+  GoldCredits: 3000
+  SilverCredits: 1500
+  BronzeCredits: 700
 --- !u!1 &188923857
 GameObject:
   m_ObjectHideFlags: 0
@@ -9533,6 +9537,7 @@ GameObject:
   - component: {fileID: 491343018}
   - component: {fileID: 491343017}
   - component: {fileID: 491343016}
+  - component: {fileID: 491343019}
   m_Layer: 0
   m_Name: FinishPoint
   m_TagString: Untagged
@@ -9576,6 +9581,20 @@ Transform:
   m_Father: {fileID: 1245152860}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: -12.113, z: 0}
+--- !u!114 &491343019
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 491343015}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 782f9d08525fb8c468818c9071eed155, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Leaderboard: {fileID: 922195598}
+  PlayerName: Player
 --- !u!1 &496395479
 GameObject:
   m_ObjectHideFlags: 0
@@ -17626,12 +17645,12 @@ GameObject:
   m_Component:
   - component: {fileID: 922195599}
   m_Layer: 5
-  m_Name: TimeTrialResults
+  m_Name: RaceTrackResults
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &922195599
 RectTransform:
   m_ObjectHideFlags: 0
@@ -33043,7 +33062,7 @@ GameObject:
   - component: {fileID: 1980271531}
   - component: {fileID: 1980271530}
   m_Layer: 5
-  m_Name: CreditsLabel
+  m_Name: CreditsText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

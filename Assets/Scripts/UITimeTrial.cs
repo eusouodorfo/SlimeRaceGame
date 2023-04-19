@@ -13,6 +13,7 @@ public class UITimeTrial : MonoBehaviour
     public Text TimeTrialSecondsB;
 
     public Text WinMessage;
+    public Text Credits;
 
     public GameObject QuitPanel;
 
@@ -23,6 +24,10 @@ public class UITimeTrial : MonoBehaviour
     public GameObject BronzeStar;
 
     private bool Winner = false;
+
+    public int GoldCredits = 3000;
+    public int SilverCredits = 1500;
+    public int BronzeCredits = 700;
 
     private bool IsPaused = false;
 
@@ -100,17 +105,24 @@ public class UITimeTrial : MonoBehaviour
         if(SaveScript.Gold == true){
             WinMessage.text = "YOU WON GOLD TIME";
             GoldStar.SetActive(true);
+            Credits.text = GoldCredits.ToString();
+            UniversalSave.CreditAmount = UniversalSave.CreditAmount += GoldCredits;
         }
         if(SaveScript.Silver == true){
             WinMessage.text = "YOU WON SILVER TIME";
             SilverStar.SetActive(true);
+            Credits.text = SilverCredits.ToString();
+            UniversalSave.CreditAmount = UniversalSave.CreditAmount += SilverCredits;
         }
         if(SaveScript.Bronze == true){
             WinMessage.text = "YOU WON BRONZE TIME";
             BronzeStar.SetActive(true);
+            Credits.text = BronzeCredits.ToString();
+            UniversalSave.CreditAmount = UniversalSave.CreditAmount += BronzeCredits;
         }
         if(SaveScript.Fail == true){
             WinMessage.text = "TRY AGAIN!";
+            Credits.text = "0";
         }
     }
 

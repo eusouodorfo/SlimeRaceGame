@@ -62,8 +62,9 @@ public class UIScript : MonoBehaviour
         PlayersPosition.text = "1";
         if(RaceTrack == true){
             SetCarVisibility();
+            QuitPanel.SetActive(false);
         }    
-        QuitPanel.SetActive(false);
+        
     }
 
     void SetCarVisibility(){
@@ -318,6 +319,7 @@ public class UIScript : MonoBehaviour
         //mostrar posiçao
         PlayersPosition.text = SaveScript.PlayerPosition.ToString();
 
+        //ativar o painel de quit game
         if(Input.GetKeyDown(KeyCode.Escape)){
             QuitPanel.SetActive(true);
             if(!IsPaused){
